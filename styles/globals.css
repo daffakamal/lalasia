@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "EudoxusBold";
+    src: url("/fonts/EudoxusSans-Bold.ttf");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "EudoxusMedium";
+    src: url("/fonts/EudoxusSans-Medium.ttf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "EudoxusRegular";
+    src: url("/fonts/EudoxusSans-Regular.ttf");
+    font-display: swap;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
