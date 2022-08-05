@@ -1,9 +1,12 @@
+import Background from "./background";
 
 function LandingPage () {
     return (
+        <>
+        <Background />
         <div className="w-full h-full grid content-center px-16 xl:px-32 2xl:px-52 py-32 bg-white">
             <div className="h-full grid justify-items-center">
-                <div className="grid justify-items-center max-w-[724px] space-y-10">
+                <div className="grid justify-items-center max-w-3xl space-y-10">
                     <h1 className="font-eudoxusBold text-[64px] text-[#151411] text-center">Discover Furniture With High Quality Wood</h1>
                     <p className="font-eudoxusMedium text-[18px] text-[#AFADB5] text-center">Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. Purus parturient viverra nunc, tortor sit laoreet. Quam tincidunt aliquam adipiscing tempor.</p>
                     <form>   
@@ -24,6 +27,7 @@ function LandingPage () {
                 />
             </div>
         </div>
+        </>
     );
 }
 
