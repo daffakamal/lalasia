@@ -6,11 +6,11 @@ function Quality () {
             <div className="grid space-y-3">
                 <h3 className="font-eudoxusBold text-yellow text-[18px]">Our Quality</h3>
                 <div className="flex flex-row gap-32">
-                    <div className="grid space-y-5 w-full">
+                    <div className="grid space-y-5 w-full my-auto">
                         <h2 className="font-eudoxusBold text-black text-[44px] leading-[57px]">Crafted by talented and high quality material</h2>
                         <p className="font-eudoxusRegular text-[18px] text-grey py-5">Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.</p>
                         <Link href="/">
-                            <a className="font-eudoxusBold flex justify-center items-center w-[170px] cursor-pointer text-white bg-green hover:bg-green2 duration-300 py-2 2xl:py-1 rounded text-[18px]">
+                            <a className="font-eudoxusBold flex justify-center items-center w-[170px] cursor-pointer text-white bg-green hover:bg-green2 duration-300 py-2 rounded text-[18px]">
                                 Learn More
                             </a>
                         </Link>
@@ -19,7 +19,7 @@ function Quality () {
                             className="pt-5 w-[595px]"
                         />
                     </div>
-                    <div className="grid w-full space-y-5">
+                    <div className="grid w-full space-y-5 my-auto">
                         <div className="grid grid-cols-3">
                             <div>
                                 <p className="font-eudoxusBold text-black text-[44px]">20+</p>

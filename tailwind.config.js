@@ -15,6 +15,7 @@ module.exports = {
         black: "#151411",
         grey: "#AFADB5",
         white: "#F9F9F9",
+        whitebasic: "#FFFFFF",
       },
       fontFamily: {
         eudoxusBold: ["EudoxusBold"],
