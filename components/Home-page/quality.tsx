@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+const styleNumber="font-eudoxusBold text-black text-[44px]"
+const styleWord="font-eudoxusMedium text-grey text-[18px]"
+
 function Quality () {
     return (
         <div className="w-full h-full grid content-center px-16 xl:px-32 2xl:px-52 pb-32 bg-white">
@@ -16,27 +19,27 @@ function Quality () {
                         </Link>
                         <img 
                             src="/images/Home-page/unsplash_mpN7xjKQ_Ns.svg"
-                            className="pt-5 w-[595px]"
+                            className="pt-5 w-[595px] pointer-events-none"
                         />
                     </div>
                     <div className="grid w-full space-y-5 my-auto">
                         <div className="grid grid-cols-3">
                             <div>
-                                <p className="font-eudoxusBold text-black text-[44px]">20+</p>
-                                <p className="font-eudoxusMedium text-grey text-[18px]">Years Experience</p>
+                                <p className={styleNumber}>20+</p>
+                                <p className={styleWord}>Years Experience</p>
                             </div>
                             <div>
-                                <p className="font-eudoxusBold text-black text-[44px]">483</p>
-                                <p className="font-eudoxusMedium text-grey text-[18px]">Happy Client</p>
+                                <p className={styleNumber}>483</p>
+                                <p className={styleWord}>Happy Client</p>
                             </div> 
                             <div>
-                                <p className="font-eudoxusBold text-black text-[44px]">150+</p>
-                                <p className="font-eudoxusMedium text-grey text-[18px]">Project Finished</p>
+                                <p className={styleNumber}>150+</p>
+                                <p className={styleWord}>Project Finished</p>
                             </div> 
                         </div>
                         <img 
                             src="/images/Home-page/unsplash_376KN_ISplE.svg"
-                            className="pt-5 w-[595px]"
+                            className="pt-5 w-[595px] pointer-events-none"
                         />
                     </div>
                 </div>
