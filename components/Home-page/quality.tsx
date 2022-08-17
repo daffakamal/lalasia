@@ -12,7 +12,7 @@ function Quality () {
                     <div className="grid space-y-5 w-full my-auto">
                         <h2 className="font-eudoxusBold text-black text-[44px] leading-[57px]">Crafted by talented and high quality material</h2>
                         <p className="font-eudoxusRegular text-[18px] text-grey py-5">Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.</p>
-                        <Link href="/">
+                        <Link href="#!">
                             <a className="font-eudoxusBold flex justify-center items-center w-[170px] cursor-pointer text-white bg-green hover:bg-green2 duration-300 py-2 rounded text-[18px]">
                                 Learn More
                             </a>
