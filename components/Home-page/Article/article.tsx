@@ -3,7 +3,7 @@ import Cards from "./articleCards";
 function Article () {
     return (
         <>
-        <div className="w-full h-full grid content-center px-16 xl:px-32 2xl:px-52 pb-32 bg-white">
+        <div className="w-full h-full grid content-center px-16 xl:px-32 2xl:px-52 pb-24 bg-white">
             <div className="grid space-y-3">
                 <h3 className="font-eudoxusBold text-yellow text-[18px]">Articles</h3>
                 <div className="flex items-start flex-col xl:flex-row gap-28">
