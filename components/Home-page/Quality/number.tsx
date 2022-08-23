@@ -3,8 +3,8 @@ const styleWord="font-eudoxusMedium text-grey text-sm sm:text-base md:text-lg"
 
 export default function Number () {
     return (
-        <div className="grid w-full h-full space-y-5 my-auto">
-            <div className="grid grid-cols-3">
+        <div className="w-full h-full grid space-y-5 my-auto">
+            <div className="grid grid-cols-3 justify-items-start lg:justify-items-end space-x-10">
                 <div>
                     <p className={styleNumber}>20+</p>
                     <p className={styleWord}>Years Experience</p>
@@ -18,10 +18,12 @@ export default function Number () {
                     <p className={styleWord}>Project Finished</p>
                 </div> 
             </div>
+            <div className="grid justify-items-end">
                 <img 
                     src="/images/Home-page/unsplash_376KN_ISplE.svg"
-                    className="pt-5 w-[595px] pointer-events-none"
+                    className="pt-5 w-full lg:w-[595px] 2xl:w-[620px] pointer-events-none"
                 />
+            </div>
         </div>
     )
 }
