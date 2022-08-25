@@ -15,7 +15,7 @@ function Testimony () {
                     <div className="flex items-center space-x-5">
                         <img
                             src="/images/Home-page/Ellipse 1.svg"
-                            className="w-[50px] pointer-events-none"
+                            className="w-[28px] sm:w-[40px] md:w-[50px] pointer-events-none"
                         />
                         <p className="font-eudoxusBold text-black text-sm sm:text-base md:text-[20px]">Janne Cooper</p>
                     </div>

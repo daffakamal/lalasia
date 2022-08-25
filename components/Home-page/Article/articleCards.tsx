@@ -5,7 +5,7 @@ const styleH5="font-eudoxusMedium text-[12px] sm:text-[14px] md:text-[16px] text
 const styleH4="font-eudoxusBold text-[16px] sm:text-[22px] md:text-[24px] text-black"
 const styleP="font-eudoxusMedium text-sm sm:text-base md:text-lg text-grey"
 const styleWriterContainer="w-full flex items-center space-x-5"
-const styleImgWriter="w-[28px] pointer-events-none"
+const styleImgWriter="w-[18px] sm:w-[28px] pointer-events-none"
 const styleWriter="w-full lg:w-2/3 2xl:w-1/2 font-eudoxusBold text-[12px] md:text-[14px] text-black"
 const styleDate="invisible lg:visible font-eudoxusMedium text-[14px] text-grey"
 
