@@ -1,13 +1,13 @@
 const styleMain="flex space-x-10 my-auto"
 const styleImg="w-[260px] pointer-events-none"
 const styleContent="flex flex-col self-center space-y-5 my-auto"
-const styleH5="font-eudoxusMedium text-[16px] text-grey"
-const styleH4="font-eudoxusBold text-[24px] text-black"
-const styleP="font-eudoxusMedium text-[18px] text-grey"
-const styleWriterContainer="flex items-center space-x-5"
+const styleH5="font-eudoxusMedium text-[12px] sm:text-[14px] md:text-[16px] text-grey"
+const styleH4="font-eudoxusBold text-[16px] sm:text-[22px] md:text-[24px] text-black"
+const styleP="font-eudoxusMedium text-sm sm:text-base md:text-lg text-grey"
+const styleWriterContainer="w-full flex items-center space-x-5"
 const styleImgWriter="w-[28px] pointer-events-none"
-const styleWriter="font-eudoxusBold text-[14px] text-black"
-const styleDate="font-eudoxusMedium text-[14px] text-grey pl-14"
+const styleWriter="w-full lg:w-2/3 2xl:w-1/2 font-eudoxusBold text-[12px] md:text-[14px] text-black"
+const styleDate="invisible lg:visible font-eudoxusMedium text-[14px] text-grey"
 
 export default function Cards () {
     return (
