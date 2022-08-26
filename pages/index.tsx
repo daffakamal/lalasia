@@ -6,11 +6,13 @@ import { LandingPage } from '../components/Home-page/LandingPage/landingpage';
 import { Product } from '../components/Home-page/product';
 import { Quality } from '../components/Home-page/Quality/quality';
 import { Testimony } from '../components/Home-page/Testimony/testimony';
+import { Navbar } from '../components/Layout/Navbar';
 import { Footer } from '../components/Layout/Footer';
 
 const Home: NextPage = () => {
   return (
     <>
+      <Navbar />
       <LandingPage />
       <Benefit />
       <Product />
