@@ -8,10 +8,10 @@ function Navbar() {
     const styleTextNav="font-eudoxusMedium text-sm sm:text-base md:text-lg cursor-pointer text-black hover:text-green px-3 py-2"
 	return (
 		<div>
-			<nav className="w-full fixed bg-white border-t-transparent border-l-transparent border-r-transparent border-2 border-[#F3F3F3] z-30">
-				<div className="w-full">
+			<nav className="w-full fixed bg-white px-16 xl:px-32 2xl:px-52 border-t-transparent border-l-transparent border-r-transparent border-2 border-[#F3F3F3] z-30">
+				<div className="w-full xl:container xl:mx-auto">
 					<div className="w-full flex items-center h-16 xl:h-20">
-						<div className="w-full flex items-center px-16 xl:px-32 2xl:px-52 justify-between">
+						<div className="w-full flex items-center justify-between">
 							<div className="flex justify-center items-center flex-shrink-0 ">
 								<Link href="/">
 									<img

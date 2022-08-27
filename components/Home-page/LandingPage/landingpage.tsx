@@ -5,7 +5,7 @@ function LandingPage () {
         <>
         <Background />
         <div className="w-full h-full grid content-center px-16 xl:px-32 2xl:px-52 py-32 bg-white">
-            <div className="h-full grid justify-items-center">
+            <div className="h-full grid xl:container xl:mx-auto justify-items-center">
                 <div className="grid justify-items-center max-w-3xl space-y-10">
                     <h1 className="font-eudoxusBold text-5xl md:text-[64px] leading-[70px] md:leading-[83px] text-[#151411] text-center">Discover Furniture With High Quality Wood</h1>
                     <p className="font-eudoxusMedium text-base md:text-lg text-[#AFADB5] text-center">Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. Purus parturient viverra nunc, tortor sit laoreet. Quam tincidunt aliquam adipiscing tempor.</p>
