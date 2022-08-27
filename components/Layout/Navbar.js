@@ -5,7 +5,7 @@ import { Transition } from "@headlessui/react";
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
     const ref=React.createRef();
-    const styleTextNav="font-eudoxusMedium text-sm sm:text-base md:text-lg cursor-pointer text-black hover:text-zinc-400 px-3 py-2"
+    const styleTextNav="font-eudoxusMedium text-sm sm:text-base md:text-lg cursor-pointer text-black hover:text-green px-3 py-2"
 	return (
 		<div>
 			<nav className="w-full fixed bg-white border-t-transparent border-l-transparent border-r-transparent border-2 border-[#F3F3F3] z-30">
@@ -13,14 +13,16 @@ function Navbar() {
 					<div className="w-full flex items-center h-16 xl:h-20">
 						<div className="w-full flex items-center px-16 xl:px-32 2xl:px-52 justify-between">
 							<div className="flex justify-center items-center flex-shrink-0 ">
-                                <img
-									loading="lazy"
-									src="/images/Home-page/Frame 1.svg"
-                                    className="w-[99px] md:w-[130px] pointer-events"
-                                />
+								<Link href="/">
+									<img
+										loading="lazy"
+										src="/images/Home-page/Frame 1.svg"
+										className="w-[99px] md:w-[130px] cursor-pointer"
+									/>
+								</Link>
 							</div>
 							<div className="hidden lg:block">
-								<div className="flex items-baseline space-x-2 lg:space-x-6 2xl:space-x-11">
+								<div className="flex space-x-2 lg:space-x-6 2xl:space-x-11">
 									<Link href="/">
                                         <a
 										className={styleTextNav}
@@ -51,12 +53,26 @@ function Navbar() {
 									</Link>
 								</div>
 							</div>
+							<div className="flex justify-center items-center space-x-5">
+								<Link href="#!">
+									<img
+										src="/images/Home-page/bag-2.svg"
+										className="hidden lg:block w-[30px] cursor-pointer"
+									/>
+								</Link>
+								<Link href="#!">
+									<img
+										src="/images/Home-page/user.svg"
+										className="hidden lg:block w-[30px] cursor-pointer"
+									/>
+								</Link>
+							</div>
 						</div>
 						<div className="mr-10 flex lg:hidden ">
 							<button
 								onClick={() => setIsOpen(!isOpen)}
 								type="button"
-								className="bg-white inline-flex items-center justify-center rounded-md text-black hover:bg-white focus:ring-white"
+								className="bg-white inline-flex items-center justify-center rounded-md text-black"
 								aria-controls="mobile-menu"
 								aria-expanded="false"
 							>
