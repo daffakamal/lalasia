@@ -4,7 +4,7 @@ function LandingPage () {
     return (
         <>
         <Background />
-        <div className="w-full h-full grid content-center px-16 xl:px-32 2xl:px-52 py-32 bg-white">
+        <div className="w-full h-full grid content-center px-16 xl:px-32 2xl:px-52 py-52 bg-white">
             <div className="h-full grid xl:container xl:mx-auto justify-items-center">
                 <div className="grid justify-items-center max-w-3xl space-y-10">
                     <h1 className="font-eudoxusBold text-5xl md:text-[64px] leading-[70px] md:leading-[83px] text-[#151411] text-center">Discover Furniture With High Quality Wood</h1>

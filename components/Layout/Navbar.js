@@ -23,7 +23,7 @@ function Navbar() {
 							</div>
 							<div className="hidden lg:block">
 								<div className="flex space-x-2 lg:space-x-6 2xl:space-x-11">
-									<Link href="/">
+									<Link href="/Products">
                                         <a
 										className={styleTextNav}
                                         >
