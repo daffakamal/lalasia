@@ -11,7 +11,7 @@ function Title () {
                 </div>
             </div>
             <div className="w-full pb-14">
-                <div className="p-12 relative overflow-hidden bg-no-repeat bg-cover">
+                <div className="relative overflow-hidden bg-no-repeat bg-cover">
                     <img 
                         src="/images/Home-page/Rectangle 38.svg"
                         className="w-full pointer-events-none brightness-90"
