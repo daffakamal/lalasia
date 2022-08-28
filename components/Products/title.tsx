@@ -11,10 +11,22 @@ function Title () {
                 </div>
             </div>
             <div className="w-full pb-14">
-                <img 
-                    src="/images/Home-page/Rectangle 38.svg"
-                    className="w-full pointer-events-none"
-                />
+                <div className="p-12 relative overflow-hidden bg-no-repeat bg-cover">
+                    <img 
+                        src="/images/Home-page/Rectangle 38.svg"
+                        className="w-full pointer-events-none brightness-90"
+                    />
+                    <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed">
+                        <div className="flex justify-start items-center h-full px-[132px] py-[149px]">
+                            <div className="text-white space-y-5">
+                                <a className="inline-block px-7 py-3 font-eudoxusMedium bg-green text-gray-200 font-medium text-sm leading-snug rounded-3xl"
+                                >Discount</a>
+                                <h2 className="font-eudoxusBold text-4xl">Ramadhan Sale Offer</h2>
+                                <h4 className="font-eudoxusMedium text-xl">Get 40% off for the first transaction on Lalasia</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
