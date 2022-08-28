@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const styleContent = "font-eudoxusMedium cursor-pointer text-black text-sm sm:text-base md:text-lg"
+const styleContent = "font-eudoxusMedium cursor-pointer text-black hover:text-green text-sm sm:text-base md:text-lg"
 
 function Footer() {
   return (
