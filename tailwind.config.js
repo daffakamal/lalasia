@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       screens: {
         'sm': '425px',
+        '3xl': '1920px',
       },
       colors: {
         green: "#518581",
