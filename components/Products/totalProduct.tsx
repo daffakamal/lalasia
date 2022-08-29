@@ -1,11 +1,12 @@
-import Link from "next/link";
+import ProductList from "./productList";
 
 function TotalProduct () {
     return (
+        <>
         <div className="w-full h-full bg-white">
             <div className="grid justify-items-center px-[24px] sm:px-16 xl:px-32 2xl:px-52">
-                <div className="grid justify-items-center xl:container xl:mx-auto pb-10">
-                    <div className="flex justify-center items-center space-x-10 pb-10">
+                <div className="grid justify-items-center xl:container xl:mx-auto space-y-10 pb-10">
+                    <div className="flex justify-center items-center space-x-10">
                         <form>   
                             <div className="relative">
                                 <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
@@ -42,9 +43,11 @@ function TotalProduct () {
                             </button>
                         </div>
                     </div>
+                    <ProductList />
                 </div>
             </div>
         </div>
+        </>
     );
 }
 
