@@ -39,7 +39,7 @@ function TotalProduct () {
                             <div className="flex items-center">
                                 <Menu as="div" className="relative inline-block text-left">
                                     <div>
-                                        <Menu.Button className="inline-flex w-full justify-center rounded-md bg-whitebasic px-4 py-2 font-eudoxusMedium text-base md:text-lg text-black hover:bg-gray-100">
+                                        <Menu.Button className="inline-flex w-full justify-center rounded-md bg-whitebasic hover:bg-gray-100 px-4 py-2 font-eudoxusMedium text-base md:text-lg text-black">
                                             <img 
                                             src="/images/Products/sort.svg"
                                             className="w-[25px] pointer-events-none"

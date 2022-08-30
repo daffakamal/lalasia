@@ -5,7 +5,8 @@ const styleContent = "font-eudoxusMedium cursor-pointer text-black hover:text-gr
 function Footer() {
   return (
     <div className="w-full h-full grid content-center px-16 xl:px-32 2xl:px-52 py-28 bg-white">
-        <div className="grid grid-rows-4 lg:grid-rows-1 grid-cols-none lg:grid-cols-5 xl:container xl:mx-auto">
+        <div className="w-full xl:container xl:mx-auto border border-greyBorder"></div>
+        <div className="grid grid-rows-4 lg:grid-rows-1 grid-cols-none lg:grid-cols-5 xl:container xl:mx-auto pt-20">
             <div className="col-span-3 w-full lg:w-3/4">
                 <Link href="#/">
                     <img   
