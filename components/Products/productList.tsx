@@ -1,15 +1,15 @@
 import Link from "next/link";
 
 const styleProductContainer="grid cursor-pointer"
-const styleImg="w-[394px]"
-const styleCategory="font-eudoxusBold text-grey text-base md:text-lg pt-5 pb-3"
-const styleProduct="font-eudoxusBold text-black text-[26px] pb-1.5"
-const styleDescription="font-eudoxusMedium text-grey text-base md:text-lg pb-4"
-const stylePrice="font-eudoxusBold text-black text-[24px]"
+const styleImg="w-[600px]"
+const styleCategory="font-eudoxusBold text-grey text-xs sm:text-sm md:text-base lg:text-lg pt-3 sm:pt-5 pb-2 sm:pb-3"
+const styleProduct="font-eudoxusBold text-black text-sm sm:text-lg md:text-2xl lg:text-[26px] pb-2 sm:pb-1.5"
+const styleDescription="font-eudoxusMedium text-grey text-xs sm:text-sm md:text-lg lg:text-lg pb-4"
+const stylePrice="font-eudoxusBold text-black text-sm sm:text-base md:text-xl lg:text-[24px]"
 
 export default function ProductList () {
     return (
-        <div className="grid grid-cols-3 content-center gap-20 2xl:gap-x-36 pt-5">
+        <div className="grid grid-cols-2 lg:grid-cols-3 content-center gap-10 md:gap-20 2xl:gap-x-36 sm:pt-5">
             <Link href="#!">
                 <div className={styleProductContainer}>
                     <img 
