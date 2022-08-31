@@ -30,7 +30,7 @@ function Navbar() {
                                         Product
                                         </a>
 									</Link>
-									<Link href="/">
+									<Link href="/Services">
                                         <a
 										className={styleTextNav}
                                         >
@@ -132,13 +132,13 @@ function Navbar() {
 										className="grid pt-2 pb-3 space-y-5 text-right font-eudoxusMedium text-sm sm:text-base md:text-lg cursor-pointer text-black hover:text-zinc-400"
 									>
 										<Link
-											href="/"
+											href="/Products"
 											className={styleTextNav}
 										>
 											Product
 										</Link>
 										<Link
-											href="/"
+											href="/Services"
 											className={styleTextNav}
 										>
 											Services
