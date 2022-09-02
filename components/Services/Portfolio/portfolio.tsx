@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CardImg from "./cardImg";
 
 function Portfolio () {
     return (
@@ -15,7 +16,7 @@ function Portfolio () {
                         </h2>
                     </div>
                     <div className="w-full grid content-start space-y-5">
-                        <p className="font-eudoxusRegular text-sm sm:text-base md:text-lg text-grey leading-[25px] sm:leading-[32px] lg:pb-5">
+                        <p className="font-eudoxusRegular text-xs sm:text-sm md:text-lg lg:text-lg text-grey leading-[25px] sm:leading-[32px] lg:pb-5">
                             Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.
                         </p>
                         <Link href="#!">
@@ -25,6 +26,7 @@ function Portfolio () {
                         </Link>
                     </div>
                 </div>
+                <CardImg />
             </div>
         </div>
         </>
