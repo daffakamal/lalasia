@@ -61,7 +61,7 @@ export default function CardImg() {
                         <div className="h-full flex items-end px-[24px] sm:px-16 py-[40px]">
                             <div className="grid text-white space-y-2">
                                 <h3 className="font-eudoxusBold text-[12px] sm:text-[18px] md:text-[22px] lg:text-[26px]">
-                                    Cozy Co-working space
+                                    Cozy Co-working Space
                                 </h3>
                                 <p className="font-eudoxusRegular text-greyBorder text-xs sm:text-lg md:text-lg">
                                     We start renovating our client bedroom with minimalist concept and using combination white and wooden material

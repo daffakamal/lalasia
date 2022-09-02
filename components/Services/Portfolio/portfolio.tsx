@@ -21,7 +21,7 @@ function Portfolio () {
                         </p>
                         <Link href="#!">
                             <a className="font-eudoxusBold flex justify-center items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/2 xl:w-1/3 cursor-pointer text-green hover:text-white bg-white hover:bg-green2 border-2 border-green2 duration-300 py-2 px-2 rounded text-sm sm:text-base md:text-lg">
-                                View Portofolio
+                                View Portfolio
                             </a>
                         </Link>
                     </div>

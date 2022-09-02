@@ -81,7 +81,7 @@ function Title () {
                                 Custom Furniture
                             </h3>
                             <p className={styleDescription}>
-                                With Quality Materials and Modern Designs, we have Designs for all Tastes. we bring you World Class Designs.
+                                With quality materials and modern designs, we have designs for all tastes. we bring you world class designs.
                             </p>
                         </div>
                     </div>
