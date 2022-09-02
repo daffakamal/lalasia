@@ -8,7 +8,7 @@ function Navbar() {
     const styleTextNav="font-eudoxusMedium text-sm sm:text-base md:text-lg cursor-pointer text-black hover:text-green px-3 py-2"
 	return (
 		<div>
-			<nav className="w-full fixed bg-white px-16 xl:px-32 2xl:px-52 border-t-transparent border-l-transparent border-r-transparent border-2 border-[#F3F3F3] z-30">
+			<nav className="w-full fixed bg-white px-7 sm:px-16 xl:px-32 2xl:px-52 border-t-transparent border-l-transparent border-r-transparent border-2 border-[#F3F3F3] z-30">
 				<div className="w-full xl:container xl:mx-auto">
 					<div className="w-full flex items-center h-16 xl:h-20">
 						<div className="w-full flex items-center justify-between">
@@ -68,7 +68,7 @@ function Navbar() {
 								</Link>
 							</div>
 						</div>
-						<div className="mr-10 flex lg:hidden ">
+						<div className="flex lg:hidden">
 							<button
 								onClick={() => setIsOpen(!isOpen)}
 								type="button"
@@ -126,7 +126,7 @@ function Navbar() {
 				>
 						<div className="lg:hidden" id="mobile-menu">
 							<div className="grid grid-cols-4">
-								<div className="pr-10 col-end-5 col-span-2">
+								<div className="col-end-5 col-span-2">
 									<div
 										ref={ref}
 										className="grid pt-2 pb-3 space-y-5 text-right font-eudoxusMedium text-sm sm:text-base md:text-lg cursor-pointer text-black hover:text-zinc-400"
