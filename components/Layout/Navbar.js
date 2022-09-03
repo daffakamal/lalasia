@@ -6,6 +6,7 @@ function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
     const ref=React.createRef();
     const styleTextNav="font-eudoxusMedium text-sm sm:text-base md:text-lg cursor-pointer text-black hover:text-green px-3 py-2"
+	
 	return (
 		<div>
 			<nav className="w-full fixed bg-white px-7 sm:px-16 xl:px-32 2xl:px-52 border-t-transparent border-l-transparent border-r-transparent border-2 border-[#F3F3F3] z-30">

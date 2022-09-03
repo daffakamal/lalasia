@@ -1,7 +1,7 @@
-const styleNumber="font-eudoxusBold text-black text-[22px] sm:text-[40px] md:text-[44px]"
-const styleWord="font-eudoxusMedium text-grey text-sm sm:text-base md:text-lg"
-
 export default function Number () {
+    const styleNumber="font-eudoxusBold text-black text-[22px] sm:text-[40px] md:text-[44px]"
+    const styleWord="font-eudoxusMedium text-grey text-sm sm:text-base md:text-lg"
+
     return (
         <div className="w-full h-full grid space-y-5 my-auto">
             <div className="grid grid-cols-3 justify-items-start lg:justify-items-end space-x-10">
