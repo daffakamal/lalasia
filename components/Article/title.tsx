@@ -16,9 +16,9 @@ function Title () {
                         className="w-full pointer-events-none"
                     />
                     <Link href="#!">
-                        <div className="grid justify-items-center z-20 cursor-pointer -mt-36 drop-shadow-lg">
-                            <div className="rounded bg-whitebasic p-10 2xl:p-14 space-y-7 max-w-5xl">
-                                <p className="font-eudoxusMedium text-grey text-sm sm:text-base md:text-lg">
+                        <div className="grid justify-items-center z-20 cursor-pointer -mt-20 md:-mt-24 lg:-mt-36 drop-shadow-lg">
+                            <div className="rounded bg-whitebasic p-7 lg:p-10 2xl:p-14 space-y-4 lg:space-y-7 max-w-lg lg:max-w-5xl">
+                                <p className="font-eudoxusMedium text-grey text-xs text-xs md:text-sm lg:text-lg">
                                     Tips and Trick
                                 </p>
                                 <h3 className="font-eudoxusBold text-black text-xs sm:text-sm md:text-lg lg:text-3xl">
@@ -27,10 +27,10 @@ function Title () {
                                 <div className="flex items-center space-x-5">
                                     <img
                                         src="/images/Home-page/Ellipse 1.svg"
-                                        className="w-[20px] sm:w-[20px] md:w-[35px] pointer-events-none"
+                                        className="w-[20px] sm:w-[20px] md:w-[28px] lg:w-[35px] pointer-events-none"
                                     />
-                                    <p className="font-eudoxusBold text-black text-sm md:text-[14px]">By Morgan Goldberg</p>
-                                    <p className="font-eudoxusMedium text-grey text-xs md:text-[14px] pl-10">Tuesday, 17 May 2022</p>
+                                    <p className="font-eudoxusBold text-black text-xs lg:text-[14px]">By Morgan Goldberg</p>
+                                    <p className="font-eudoxusMedium text-grey text-xs lg:text-[14px] md:pl-10">Tuesday, 17 May 2022</p>
                                 </div>
                             </div>
                         </div>
