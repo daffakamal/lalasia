@@ -16,7 +16,7 @@ function Title () {
                         className="w-full pointer-events-none"
                     />
                     <Link href="#!">
-                        <div className="grid justify-items-center z-20 cursor-pointer -mt-20 md:-mt-24 lg:-mt-36 drop-shadow-lg">
+                        <div className="grid justify-items-center z-20 cursor-pointer duration-200 hover:-translate-y-6 -mt-20 md:-mt-24 lg:-mt-36 drop-shadow-lg">
                             <div className="rounded bg-whitebasic p-7 lg:p-10 2xl:p-14 space-y-4 lg:space-y-7 max-w-lg lg:max-w-5xl">
                                 <p className="font-eudoxusMedium text-grey text-xs text-xs md:text-sm lg:text-lg">
                                     Tips and Trick
@@ -26,7 +26,7 @@ function Title () {
                                 </h3>
                                 <div className="flex items-center space-x-5">
                                     <img
-                                        src="/images/Home-page/Ellipse 1.svg"
+                                        src="/images/Article/Ellipse 25 (8).svg"
                                         className="w-[20px] sm:w-[20px] md:w-[28px] lg:w-[35px] pointer-events-none"
                                     />
                                     <p className="font-eudoxusBold text-black text-xs lg:text-[14px]">By Morgan Goldberg</p>
