@@ -3,6 +3,7 @@ import { Footer } from '../../components/Layout/Footer';
 import { Navbar } from '../../components/Layout/Navbar';
 import { Title } from '../../components/Article/title';
 import { DailyNews } from '../../components/Article/dailyNews';
+import { TrendingTopics } from '../../components/Article/trendingTopics';
 
 const Article: NextPage = () => {
     return (
@@ -10,6 +11,7 @@ const Article: NextPage = () => {
         <Navbar />
         <Title />
         <DailyNews />
+        <TrendingTopics />
         <Footer />
       </>
     );
