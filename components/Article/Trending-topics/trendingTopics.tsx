@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ArticleList from "./articleList";
 
 function TrendingTopics () {
     return (
@@ -38,6 +39,7 @@ function TrendingTopics () {
                         </button>
                     </div>
                 </div>
+                <ArticleList />
             </div>
         </div>
     );

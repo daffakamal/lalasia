@@ -3,7 +3,7 @@ import { Footer } from '../../components/Layout/Footer';
 import { Navbar } from '../../components/Layout/Navbar';
 import { Title } from '../../components/Article/title';
 import { DailyNews } from '../../components/Article/dailyNews';
-import { TrendingTopics } from '../../components/Article/trendingTopics';
+import { TrendingTopics } from '../../components/Article/Trending-topics/trendingTopics';
 
 const Article: NextPage = () => {
     return (
