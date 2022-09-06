@@ -10,7 +10,7 @@ export default function ArticleList () {
     const styleDate="invisible lg:visible font-eudoxusMedium text-[14px] text-grey"
 
     return (
-        <div className="grid content-center space-y-10">
+        <div className="grid content-center justify-items-center space-y-10">
             <div className="flex items-center space-x-8">
                 <img 
                     src="/images/Article/Rectangle 45.svg"
@@ -68,6 +68,9 @@ export default function ArticleList () {
                     </div>
                 </div>
             </div>
+            <button className="flex justify-center w-[170px] px-7 lg:px-5 py-3 font-eudoxusMedium text-black bg-whitebasic hover:bg-gray-100 rounded-lg border border-grey text-base md:text-lg cursor-pointer">
+                Load More
+            </button>
         </div>
     )
 }
