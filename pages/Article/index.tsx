@@ -4,6 +4,7 @@ import { Navbar } from '../../components/Layout/Navbar';
 import { Title } from '../../components/Article/title';
 import { DailyNews } from '../../components/Article/dailyNews';
 import { TrendingTopics } from '../../components/Article/Trending-topics/trendingTopics';
+import { Subscribe } from '../../components/Article/subscribe';
 
 const Article: NextPage = () => {
     return (
@@ -12,6 +13,7 @@ const Article: NextPage = () => {
         <Title />
         <DailyNews />
         <TrendingTopics />
+        <Subscribe />
         <Footer />
       </>
     );
