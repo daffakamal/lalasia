@@ -2,19 +2,19 @@
 function OurMission () {
     const styleNumber="font-eudoxusBold text-black text-[22px] sm:text-[40px] md:text-[44px]"
     const styleWord="font-eudoxusMedium text-grey text-sm sm:text-base md:text-lg"
-    const styleContent="flex gap-x-10"
-    const styleImg="w-[62px] pointer-events-none"
+    const styleContent="flex items-start gap-x-5 md:gap-x-10"
+    const styleImg="w-[48px] sm:w-[55px] md:w-[62px] pointer-events-none"
     const styleSubContent="grid space-y-3"
     const styleTitle="font-eudoxusBold text-sm sm:text-base md:text-lg xl:text-2xl text-black leading-[25px] sm:leading-[32px]"
     const styleDescription="font-eudoxusRegular text-sm sm:text-base md:text-lg text-grey leading-[25px] sm:leading-[32px]"
 
     return (
-        <div className="w-full h-full grid content-center px-[24px] sm:px-16 xl:px-32 2xl:px-52 py-48 bg-white">
+        <div className="w-full h-full grid content-center px-[24px] sm:px-16 xl:px-32 2xl:px-52 py-32 lg:py-48 bg-white">
             <div className="grid xl:container xl:mx-auto space-y-3">
                 <h5 className="font-eudoxusBold text-yellow text-sm sm:text-base md:text-lg">
                     Our Mission
                 </h5>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-[60px] 2xl:gap-[150px]">
+                <div className="grid grid-cols-1 xl:grid-cols-2 gap-20 2xl:gap-[150px]">
                     <div>
                         <div className="font-eudoxusBold text-black text-[24px] sm:text-[40px] md:text-[44px] leading-[31px] sm:leading-[57px]">
                             <h2>Our team dedicated to help find  smart home product</h2>
@@ -40,7 +40,7 @@ function OurMission () {
                         <div className="grid space-y-10 justify-items-start">
                             <div className={styleContent}>
                                 <img 
-                                    src="/images/About/Group 15.svg"
+                                    src="/images/About/Group 15 (1).svg"
                                     className={styleImg}
                                 />
                                 <div className={styleSubContent}>
@@ -76,7 +76,7 @@ function OurMission () {
                                         Overall Guarantee
                                     </h3>
                                     <p className={styleDescription}>
-                                    The comprehensive guarantee is required for import, warehousing, transit, processing and specific use
+                                        The comprehensive guarantee is required for import, warehousing, transit, processing and specific use
                                     </p>
                                 </div>
                             </div>
