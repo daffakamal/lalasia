@@ -11,6 +11,7 @@ const About: NextPage = () => {
         <Navbar />
         <Title />
         <OurMission />
+        <OurTeam />
         <Footer />
       </>
     );
