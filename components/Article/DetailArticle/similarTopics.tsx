@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 function SimilarTopics () {
-    const styleMain="flex space-x-10 my-auto"
+    const styleMain="flex space-x-10 my-auto cursor-pointer"
     const styleImg="w-[260px] pointer-events-none"
     const styleContent="flex flex-col self-center space-y-5 my-auto"
     const styleH5="font-eudoxusMedium text-[12px] sm:text-[14px] md:text-[16px] text-grey"
