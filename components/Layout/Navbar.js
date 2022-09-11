@@ -45,7 +45,7 @@ function Navbar() {
                                         Article
                                         </a>
 									</Link>
-									<Link href="/AboutUs">
+									<Link href="/About">
                                         <a
 										className={styleTextNav}
                                         >
