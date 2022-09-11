@@ -22,7 +22,7 @@ function Content () {
                                 Habitant ultrices egestas vitae eget mattis ipsum sed. Ornare porttitor lobortis mauris nulla et vitae risus augue commodo. 
                                 Nunc placerat nascetur semper est facilisis. Arcu cum aliquam vitae sit ultrices. Aliquet amet elit nibh sapien a. 
                                 Id eu sagittis est eu ornare.
-                            <p className="font-eudoxusBold text-black pt-10 pb-2">
+                            <p className="font-eudoxusBold text-black text-2xl pt-10 pb-2">
                                 Bedroom Collection
                             </p>
                                 Nisi quam mi est et et. Lectus sed imperdiet non vestibulum volutpat tellus odio aliquam. Eu rutrum tincidunt risus felis sagittis, consequat, iaculis tortor bibendum. 
@@ -48,6 +48,25 @@ function Content () {
                         src="/images/Article/DetailArticle/Rectangle 59 (4).svg"
                         className="w-full pointer-events-none py-10"
                     />
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 text-sm sm:text-base md:text-lg text-grey leading-[25px] sm:leading-[32px] text-justify">
+                        <div>
+                            <p className="font-eudoxusBold text-black text-2xl">
+                                The Knot
+                            </p>
+                            <p className="font-eudoxusRegular text-grey pt-2">
+                                Nisi quam mi est et et. Lectus sed imperdiet non vestibulum volutpat tellus odio aliquam. Eu rutrum tincidunt risus felis sagittis, consequat, iaculis tortor bibendum. 
+                                At nisl, diam a sagittis nulla nec at. Faucibus ultricies pharetra, faucibus erat varius ornare. Viverra pharetra nibh leo et purus in et. 
+                                Amet felis lectus consectetur duis ut orci. Sed vitae quam vel pretium urna, duis neque. Vitae commodo interdum adipiscing mi ultrices. 
+                                Aliquam risus nibh tincidunt mauris faucibus gravida eleifend. Ornare tincidunt gravida sed adipiscing vel adipiscing                        
+                            </p>
+                        </div>
+                        <p className="font-eudoxusRegular">
+                            Nisi quam mi est et et. Lectus sed imperdiet non vestibulum volutpat tellus odio aliquam. Eu rutrum tincidunt risus felis sagittis, consequat, iaculis tortor bibendum. 
+                            At nisl, diam a sagittis nulla nec at. Faucibus ultricies pharetra, faucibus erat varius ornare. Viverra pharetra nibh leo et purus in et. 
+                            Amet felis lectus consectetur duis ut orci. Sed vitae quam vel pretium urna, duis neque. Vitae commodo interdum adipiscing mi ultrices. 
+                            Aliquam risus nibh tincidunt mauris faucibus gravida eleifend. Ornare tincidunt gravida sed adipiscing vel adipiscing                        
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
