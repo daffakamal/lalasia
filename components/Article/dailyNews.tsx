@@ -11,60 +11,64 @@ function DailyNews () {
                     Today top headlines
                 </h2>
                 <div className="flex flex-col 2xl:flex-row gap-20 pt-5">
-                    <div className="grid content-start space-y-3 md:space-y-5 w-full cursor-pointer hover:p-5 duration-200 ease-in hover:bg-orangeLight hover:rounded-xl">
-                        <img 
-                            src="/images/Article/Rectangle 44.svg"
-                            className="w-full xl:w-[582px] 2xl:w-full pointer-events-none"
-                        />
-                        <p className="font-eudoxusMedium text-grey text-xs sm:text-sm md:text-lg">
-                            Design Inspiration
-                        </p>
-                        <h3 className="font-eudoxusBold text-black text-xs sm:text-xl md:text-2xl lg:text-3xl truncate">
-                            Bedroom Design is the Most Personal Reflection of the Owner, Really?
-                        </h3>
-                        <p className="font-eudoxusRegular text-grey text-sm sm:text-base md:text-lg truncate">
-                            Is it true that the bedroom design is the most personal reflection of the owner? Many people believe that to be able to judge a person's personality, it is enough to
-                        </p>
-                        <div className="flex items-center space-x-3 md:space-x-5 sm:pt-3">
-                            <img
-                                src="/images/Article/Ellipse 25 (3).svg"
-                                className="w-[20px] sm:w-[23px] md:w-[35px] pointer-events-none"
+                    <Link href="/DetailArticle/bedroom_design">
+                        <div className="grid content-start space-y-3 md:space-y-5 w-full cursor-pointer hover:p-5 duration-200 ease-in hover:bg-orangeLight hover:rounded-xl ">
+                            <img 
+                                src="/images/Article/Rectangle 44.svg"
+                                className="w-full xl:w-[582px] 2xl:w-full pointer-events-none"
                             />
-                            <p className="font-eudoxusBold text-black text-xs md:text-[14px]">
-                                By Jenny Agnes
+                            <p className="font-eudoxusMedium text-grey text-xs sm:text-sm md:text-lg">
+                                Design Inspiration
                             </p>
-                            <p className="font-eudoxusMedium text-grey text-xs md:text-[14px] pl-10 hidden md:block">
-                                Tuesday, 17 May 2022
+                            <h3 className="font-eudoxusBold text-black text-xs sm:text-xl md:text-2xl lg:text-3xl truncate">
+                                Bedroom Design is the Most Personal Reflection of the Owner, Really?
+                            </h3>
+                            <p className="font-eudoxusRegular text-grey text-sm sm:text-base md:text-lg truncate">
+                                Is it true that the bedroom design is the most personal reflection of the owner? Many people believe that to be able to judge a person's personality, it is enough to
                             </p>
+                            <div className="flex items-center space-x-3 md:space-x-5 sm:pt-3">
+                                <img
+                                    src="/images/Article/Ellipse 25 (3).svg"
+                                    className="w-[20px] sm:w-[23px] md:w-[35px] pointer-events-none"
+                                />
+                                <p className="font-eudoxusBold text-black text-xs md:text-[14px]">
+                                    By Jenny Agnes
+                                </p>
+                                <p className="font-eudoxusMedium text-grey text-xs md:text-[14px] pl-10 hidden md:block">
+                                    Tuesday, 17 May 2022
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="grid content-start space-y-3 md:space-y-5 w-full cursor-pointer hover:p-5 duration-200 ease-in hover:bg-orangeLight hover:rounded-xl">
-                        <img 
-                            src="/images/Article/Rectangle 41 (1).svg"
-                            className="w-full xl:w-[582px] 2xl:w-full pointer-events-none"
-                        />
-                        <p className="font-eudoxusMedium text-grey text-xs sm:text-sm md:text-lg">
-                            Tips and Trick
-                        </p>
-                        <h3 className="font-eudoxusBold text-black text-xs sm:text-xl md:text-2xl lg:text-3xl truncate">
-                            Create a non-monotonous and dynamic interior atmosphere with these 9 variations of wall tiles
-                        </h3>
-                        <p className="font-eudoxusRegular text-grey text-sm sm:text-base md:text-lg truncate">
-                            Quoted from The Healthy Home Economist, a study in 1932 stated that color doesn't really have to be visible to have an effect The radiance of a
-                        </p>
-                        <div className="flex items-center space-x-3 md:space-x-5 sm:pt-3">
-                            <img
-                                src="/images/Article/Ellipse 25 (4).svg"
-                                className="w-[20px] sm:w-[23px] md:w-[35px] pointer-events-none"
+                    </Link>
+                    <Link href="#!">
+                        <div className="grid content-start space-y-3 md:space-y-5 w-full cursor-pointer hover:p-5 duration-200 ease-in hover:bg-orangeLight hover:rounded-xl">
+                            <img 
+                                src="/images/Article/Rectangle 41 (1).svg"
+                                className="w-full xl:w-[582px] 2xl:w-full pointer-events-none"
                             />
-                            <p className="font-eudoxusBold text-black text-xs md:text-[14px]">
-                                By Juliana Athorn
+                            <p className="font-eudoxusMedium text-grey text-xs sm:text-sm md:text-lg">
+                                Tips and Trick
                             </p>
-                            <p className="font-eudoxusMedium text-grey text-xs md:text-[14px] pl-10 hidden md:block">
-                                Tuesday, 17 May 2022
+                            <h3 className="font-eudoxusBold text-black text-xs sm:text-xl md:text-2xl lg:text-3xl truncate">
+                                Create a non-monotonous and dynamic interior atmosphere with these 9 variations of wall tiles
+                            </h3>
+                            <p className="font-eudoxusRegular text-grey text-sm sm:text-base md:text-lg truncate">
+                                Quoted from The Healthy Home Economist, a study in 1932 stated that color doesn't really have to be visible to have an effect The radiance of a
                             </p>
+                            <div className="flex items-center space-x-3 md:space-x-5 sm:pt-3">
+                                <img
+                                    src="/images/Article/Ellipse 25 (4).svg"
+                                    className="w-[20px] sm:w-[23px] md:w-[35px] pointer-events-none"
+                                />
+                                <p className="font-eudoxusBold text-black text-xs md:text-[14px]">
+                                    By Juliana Athorn
+                                </p>
+                                <p className="font-eudoxusMedium text-grey text-xs md:text-[14px] pl-10 hidden md:block">
+                                    Tuesday, 17 May 2022
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>
