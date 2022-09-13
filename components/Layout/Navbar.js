@@ -130,31 +130,35 @@ function Navbar() {
 								<div className="col-end-5 col-span-1">
 									<div
 										ref={ref}
-										className="grid pt-2 pb-3 space-y-5 text-right"
+										className="grid pt-2 pb-3 space-y-5 text-right font-eudoxusMedium text-sm sm:text-base md:text-lg cursor-pointer text-black hover:text-green py-2"
 									>
 										<Link
 											href="/Products"
-											className={styleTextNav}
 										>
-											Product
+											<a>
+												Product
+											</a>
 										</Link>
 										<Link
 											href="/Services"
-											className={styleTextNav}
 										>
-											Services
+											<a>
+												Services
+											</a>
 										</Link>
 										<Link
 											href="/Article"
-											className={styleTextNav}
 										>
-											Article
+											<a>
+												Article
+											</a>
 										</Link>
 										<Link
 											href="/"
-											className={styleTextNav}
 										>
-											About Us
+											<a>
+												About Us
+											</a>
 										</Link>
 									</div>
 								</div>
