@@ -13,12 +13,12 @@ function Navbar() {
 				<div className="w-full xl:container xl:mx-auto">
 					<div className="w-full flex items-center h-16 xl:h-20">
 						<div className="w-full flex items-center justify-between">
-							<div className="flex justify-center items-center flex-shrink-0 ">
+							<div className="flex justify-center items-center">
 								<Link href="/">
 									<img
 										loading="lazy"
 										src="/images/Home-page/Frame 1.svg"
-										className="w-[99px] md:w-[130px] cursor-pointer"
+										className="w-[99px] md:w-[120px] lg:w-[130px] cursor-pointer"
 									/>
 								</Link>
 							</div>
@@ -127,10 +127,10 @@ function Navbar() {
 				>
 						<div className="lg:hidden" id="mobile-menu">
 							<div className="grid grid-cols-4">
-								<div className="col-end-5 col-span-2">
+								<div className="col-end-5 col-span-1">
 									<div
 										ref={ref}
-										className="grid pt-2 pb-3 space-y-5 text-right font-eudoxusMedium text-sm sm:text-base md:text-lg cursor-pointer text-black hover:text-zinc-400"
+										className="grid pt-2 pb-3 space-y-5 text-right"
 									>
 										<Link
 											href="/Products"
