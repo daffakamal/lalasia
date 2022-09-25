@@ -15,7 +15,9 @@ function TotalProduct () {
                                     <svg aria-hidden="true" className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                                 </div>
                                 <input type="search" className="font-eudoxusMedium block p-4 pl-10 w-[300px] sm:w-[390px] md:w-[460px] lg:w-[600px] text-base md:text-lg text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:border-green3 focus:ring-green3 focus:ring-1" placeholder="Search property" />
-                                <button type="submit" className="font-eudoxusMedium text-white absolute right-2.5 bottom-2.5 bg-green hover:bg-green2 rounded-lg text-base md:text-lg px-4 py-2 pointer-event">Search</button>
+                                <button type="submit" className="font-eudoxusMedium text-white absolute right-2.5 bottom-2.5 bg-green hover:bg-green2 rounded-lg text-base md:text-lg px-4 py-2 pointer-event">
+                                    Search
+                                </button>
                             </div>
                         </form>
                         <button className="lg:h-full items-center hidden md:flex px-5 lg:px-7 py-3 font-eudoxusMedium text-black bg-whitebasic hover:bg-gray-100 rounded-lg text-base md:text-lg cursor-pointer">

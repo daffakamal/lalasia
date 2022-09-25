@@ -14,11 +14,15 @@ function Footer() {
                             className="w-[99px] md:w-[130px] pointer-events"
                         />
                     </Link>
-                    <p className="font-eudoxusMedium text-sm sm:text-base md:text-lg leading-[25px] sm:leading-[32px] text-black pt-5 md:pt-10">Lalasia is digital agency that help you make better experience iaculis cras in.</p>
+                    <p className="font-eudoxusMedium text-sm sm:text-base md:text-lg leading-[25px] sm:leading-[32px] text-black pt-5 md:pt-10">
+                        Lalasia is digital agency that help you make better experience iaculis cras in.
+                        </p>
                 </div>
                 <div className="grid content-start col-span-1 sm:col-span-3 sm:flex sm:flex-wrap row-span-3 lg:row-span-1 justify-end lg:col-span-2 justify-between sm:pt-20 lg:pt-0">
                     <div className="grid space-y-5">
-                        <p className="font-eudoxusBold cursor-pointer text-black text-sm sm:text-base md:text-lg">Product</p>
+                        <p className="font-eudoxusBold cursor-pointer text-black text-sm sm:text-base md:text-lg">
+                            Product
+                        </p>
                         <Link href="#!">
                             <a className={styleContent}>
                                 New Arrivals
@@ -41,7 +45,9 @@ function Footer() {
                         </Link>
                     </div>
                     <div className="grid space-y-5 pt-10 sm:pt-0">
-                        <p className="font-eudoxusBold cursor-pointer text-black text-sm sm:text-base md:text-lg">Services</p>
+                        <p className="font-eudoxusBold cursor-pointer text-black text-sm sm:text-base md:text-lg">
+                            Services
+                        </p>
                         <Link href="#!">
                             <a className={styleContent}>
                                 Catalog
@@ -64,7 +70,9 @@ function Footer() {
                         </Link>
                     </div>
                     <div className="grid content-start space-y-5 pt-10 sm:pt-0">
-                        <p className="font-eudoxusBold cursor-pointer text-black text-sm sm:text-base md:text-lg">Follow Us</p>
+                        <p className="font-eudoxusBold cursor-pointer text-black text-sm sm:text-base md:text-lg">
+                            Follow Us
+                        </p>
                         <Link href="#!">
                             <a className={styleContent}>
                                 Facebook
