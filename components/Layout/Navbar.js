@@ -61,7 +61,7 @@ function Navbar() {
 										className="hidden lg:block w-[30px] cursor-pointer"
 									/>
 								</Link>
-								<Link href="#!">
+								<Link href="/Profile">
 									<img
 										src="/images/Home-page/user.svg"
 										className="hidden lg:block w-[30px] cursor-pointer"
