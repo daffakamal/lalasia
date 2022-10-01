@@ -9,7 +9,7 @@ function Navbar() {
 	
 	return (
 		<div>
-			<nav className="w-full fixed bg-white px-7 sm:px-16 xl:px-32 2xl:px-52 border-t-transparent border-l-transparent border-r-transparent border-2 border-[#F3F3F3] z-30">
+			<nav className="w-full fixed bg-white px-7 sm:px-16 xl:px-32 2xl:px-52 border-t-transparent border-l-transparent border-r-transparent border-2 border-[#F3F3F3] z-30" data-aos="zoom-out-down" data-aos-duration="1500">
 				<div className="w-full xl:container xl:mx-auto">
 					<div className="w-full flex items-center h-16 xl:h-20">
 						<div className="w-full flex items-center justify-between">
