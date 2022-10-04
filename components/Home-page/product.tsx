@@ -2,7 +2,7 @@
 function Product () {
     return (
         <div className="w-full h-full grid justify-items-center px-[24px] sm:px-16 xl:px-32 2xl:px-52 pb-32 bg-white">
-            <div className="grid justify-items-center space-y-5">
+            <div className="grid justify-items-center space-y-5" data-aos="fade-up" data-aos-duration="1500">
                 <h3 className="font-eudoxusBold text-yellow text-sm sm:text-base md:text-lg">
                     Product
                 </h3>

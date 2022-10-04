@@ -3,7 +3,7 @@ export default function Number () {
     const styleWord="font-eudoxusMedium text-grey text-sm sm:text-base md:text-lg"
 
     return (
-        <div className="w-full h-full grid space-y-5 my-auto">
+        <div className="w-full h-full grid space-y-5 my-auto" data-aos="fade-left" data-aos-duration="1500">
             <div className="grid grid-cols-3 justify-items-start lg:justify-items-end space-x-10">
                 <div>
                     <p className={styleNumber}>20+</p>
