@@ -4,7 +4,7 @@ export default function Cards () {
     const styleImg="w-[44px] sm:w-[55px] md:w-[62px]"
 
     return (
-        <div className="flex justify-center items-center pointer-events-none" data-aos="fade-up" data-aos-duration="1500">
+        <div className="flex justify-center items-center pointer-events-none" data-aos="fade-zoom-in" data-aos-duration="1800" data-aos-easing="ease-in">
             <div className="flex items-center lg:items-stretch flex-col lg:flex-row space-y-14 lg:space-y-0 lg:space-x-14 xl:space-x-20 pt-10 drop-shadow-lg">
                 <div className="rounded bg-[#FFFFFF] p-[16px] sm:p-10">
                     <div className="grid space-y-5">
