@@ -14,11 +14,11 @@ function Article () {
         <>
         <div className="w-full h-full grid content-center px-16 xl:px-32 2xl:px-52 pb-24 bg-white">
             <div className="grid xl:container xl:mx-auto space-y-3">
-                <h3 className="font-eudoxusBold text-yellow text-sm sm:text-base md:text-lg">
+                <h3 className="font-eudoxusBold text-yellow text-sm sm:text-base md:text-lg" data-aos="fade-right" data-aos-duration="1500">
                     Articles
                 </h3>
                 <div className="flex items-start flex-col 2xl:flex-row gap-10 md:gap-28">
-                    <div className="grid content-start space-y-10 w-full">
+                    <div className="grid content-start space-y-10 w-full" data-aos="fade-right" data-aos-duration="1500">
                         <h2 className="font-eudoxusBold text-black text-[24px] sm:text-[40px] md:text-[44px] leading-[31px] sm:leading-[57px]">
                             The best furniture comes from Lalasia
                         </h2>

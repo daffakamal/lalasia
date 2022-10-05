@@ -4,7 +4,7 @@ import { ArrowLongRightIcon } from '@heroicons/react/24/outline';
 function JoinWithUs () {
     return (
         <div className="w-full h-full grid content-center px-16 xl:px-32 2xl:px-52 md:pt-28 bg-white">
-            <div className="grid lg:grid-cols-4 xl:container xl:mx-auto">
+            <div className="grid lg:grid-cols-4 xl:container xl:mx-auto" data-aos="fade-up" data-aos-duration="1500">
                 <h2 className="col-span-3 font-eudoxusBold text-black text-[24px] sm:text-[40px] md:text-[44px] leading-[31px] sm:leading-[57px]">
                     Join with us to get special discount
                 </h2>

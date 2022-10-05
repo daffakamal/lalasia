@@ -12,7 +12,7 @@ export default function ArticleCards () {
     const styleDate="invisible lg:visible font-eudoxusMedium text-[14px] text-grey"
 
     return (
-        <div className="w-full grid space-y-5">
+        <div className="w-full grid space-y-5" data-aos="fade-left" data-aos-duration="1500">
             <div className="grid my-auto space-y-10">
                 <div className={styleMain}>
                     <img
