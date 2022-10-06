@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import { Article } from '../components/Home-page/Article/article';
 import { Benefit } from '../components/Home-page/Benefit/benefit';
 import { JoinWithUs } from '../components/Home-page/joinWithUs';
@@ -12,6 +13,10 @@ import { Footer } from '../components/Layout/Footer';
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Lalasia</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar />
       <LandingPage />
       <Benefit />
