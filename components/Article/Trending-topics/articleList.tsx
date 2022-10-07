@@ -10,7 +10,7 @@ export default function ArticleList () {
     const styleDate="invisible lg:visible font-eudoxusMedium text-[14px] text-grey"
 
     return (
-        <div className="grid content-center justify-items-center space-y-10">
+        <div className="grid content-center justify-items-center space-y-10" data-aos="fade-up" data-aos-duration="2000">
             <div className="flex items-center space-x-8">
                 <img 
                     src="/images/Article/Rectangle 45.svg"
