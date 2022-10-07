@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CardImg() {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 space-y-10 lg:space-y-0 lg:space-x-10 pt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 space-y-10 lg:space-y-0 lg:space-x-10 pt-20" data-aos="fade-up" data-aos-duration="2000">
             <div>
                 <div className="grid relative overflow-hidden bg-no-repeat bg-cover">
                     <img 
