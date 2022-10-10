@@ -11,11 +11,11 @@ function OurMission () {
     return (
         <div className="w-full h-full grid content-center px-[24px] sm:px-16 xl:px-32 2xl:px-52 py-32 lg:py-48 bg-white">
             <div className="grid xl:container xl:mx-auto space-y-3">
-                <h5 className="font-eudoxusBold text-yellow text-sm sm:text-base md:text-lg">
+                <h5 className="font-eudoxusBold text-yellow text-sm sm:text-base md:text-lg" data-aos="fade-right" data-aos-duration="2000">
                     Our Mission
                 </h5>
                 <div className="grid grid-cols-1 xl:grid-cols-2 gap-20 2xl:gap-[150px]">
-                    <div>
+                    <div data-aos="fade-right" data-aos-duration="2000">
                         <div className="font-eudoxusBold text-black text-[24px] sm:text-[40px] md:text-[44px] leading-[31px] sm:leading-[57px]">
                             <h2>Our team dedicated to help find  smart home product</h2>
                         </div>
@@ -37,7 +37,7 @@ function OurMission () {
                         </div>
                     </div>
                     <div>
-                        <div className="grid space-y-10 justify-items-start">
+                        <div className="grid space-y-10 justify-items-start" data-aos="fade-left" data-aos-duration="2000">
                             <div className={styleContent}>
                                 <img 
                                     src="/images/About/Group 15 (1).svg"

@@ -5,7 +5,7 @@ export default function TeamList () {
     const styleImg="w-full sm:w-[250px] md:w-[300px] xl:w-[394px]"
 
     return (
-        <div className="flex justify-between items-center pointer-events-none flex-wrap gap-10 pt-20">
+        <div className="flex justify-between items-center pointer-events-none flex-wrap gap-10 pt-20" data-aos="fade-up" data-aos-duration="2000">
             <div className={styleContent}>
                 <img
                     src="/images/About/Rectangle 23.svg"

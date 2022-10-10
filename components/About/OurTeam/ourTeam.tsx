@@ -4,7 +4,7 @@ function OurTeam () {
     return (
         <>
         <div className="w-full h-full grid content-center px-[24px] sm:px-16 xl:px-32 2xl:px-52 pb-32 bg-white">
-            <div className="grid xl:container xl:mx-auto space-y-3">
+            <div className="grid xl:container xl:mx-auto space-y-3" data-aos="fade-up" data-aos-duration="2000">
                 <h5 className="font-eudoxusBold text-yellow text-sm sm:text-base md:text-lg">
                     Our Team
                 </h5>
