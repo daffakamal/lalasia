@@ -9,16 +9,16 @@ function Testimony () {
                 <h2 className="font-eudoxusBold text-black text-[24px] sm:text-[40px] md:text-[44px] leading-[31px] sm:leading-[57px]">
                     What our customer say
                 </h2>
-                <div className="font-eudoxusRegular text-sm sm:text-base md:text-lg text-grey leading-[25px] sm:leading-[32px] text-grey pb-10">
+                <div className="font-eudoxusRegular text-sm sm:text-base md:text-lg leading-[25px] sm:leading-[32px] text-grey pb-10">
                     <p>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.</p>
                 </div>
                 <div className="rounded bg-whitebasic p-10 space-y-10 max-w-2xl" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-easing="ease-in">
-                    <p className="font-eudoxusRegular text-sm sm:text-base md:text-lg text-grey leading-[25px] sm:leading-[32px] text-grey">
+                    <p className="font-eudoxusRegular text-sm sm:text-base md:text-lgleading-[25px] sm:leading-[32px] text-grey">
                         Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. 
                     </p>
                     <div className="flex items-center space-x-5">
                         <img
-                            src="/images/Home-page/Ellipse 1.svg"
+                            src="/images/Home-page/Ellipse 1.png"
                             className="w-[28px] sm:w-[40px] md:w-[50px] pointer-events-none"
                         />
                         <p className="font-eudoxusBold text-black text-sm sm:text-base md:text-[20px]">

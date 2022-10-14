@@ -1,7 +1,7 @@
-export default function Number () {
-    const styleNumber="font-eudoxusBold text-black text-[22px] sm:text-[40px] md:text-[44px]"
-    const styleWord="font-eudoxusMedium text-grey text-sm sm:text-base md:text-lg"
+const styleNumber="font-eudoxusBold text-black text-[22px] sm:text-[40px] md:text-[44px]"
+const styleWord="font-eudoxusMedium text-grey text-sm sm:text-base md:text-lg"
 
+export default function Number () {
     return (
         <div className="w-full h-full grid space-y-5 my-auto" data-aos="fade-left" data-aos-duration="1500">
             <div className="grid grid-cols-3 justify-items-start lg:justify-items-end space-x-10">
@@ -20,7 +20,7 @@ export default function Number () {
             </div>
             <div className="grid justify-items-end">
                 <img 
-                    src="/images/Home-page/unsplash_376KN_ISplE.svg"
+                    src="/images/Home-page/unsplash_376KN_ISplE.png"
                     className="pt-5 w-full lg:w-[595px] 2xl:w-[620px] pointer-events-none"
                 />
             </div>

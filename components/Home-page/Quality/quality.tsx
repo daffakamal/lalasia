@@ -24,7 +24,7 @@ function Quality () {
                         </Link>
                         
                         <img 
-                            src="/images/Home-page/unsplash_mpN7xjKQ_Ns.svg"
+                            src="/images/Home-page/unsplash_mpN7xjKQ_Ns.png"
                             className="pt-5 w-full 2xl:w-[595px] pointer-events-none"
                         />
                     </div>

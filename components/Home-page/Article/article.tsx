@@ -1,6 +1,6 @@
 import ArticleCards from "./articleCards";
 
-const styleContent="md:hidden flex flex-col self-center space-y-3 md:space-y-5 m-auto"
+const styleContent="md:hidden flex flex-col self-center space-y-3 md:space-y-5 m-auto cursor-pointer"
 const styleH5="font-eudoxusMedium text-[12px] sm:text-[14px] md:text-[16px] text-grey pt-5 md:pt-0"
 const styleH4="font-eudoxusBold text-[16px] sm:text-[22px] md:text-[24px] text-black"
 const styleP="font-eudoxusMedium text-sm sm:text-base md:text-lg text-grey"
@@ -36,7 +36,7 @@ function Article () {
                                 <p className={styleP}>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .</p>
                                 <div className={styleWriterContainer}>
                                     <img
-                                        src="/images/Home-page/Ellipse 25.svg"
+                                        src="/images/Home-page/Ellipse 25.png"
                                         className={styleImgWriter}
                                     />
                                     <p className={styleWriter}>By Jerremy Jean</p>
