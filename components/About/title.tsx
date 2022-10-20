@@ -11,7 +11,7 @@ function Title () {
                         <p>We display products based on the latest products we have, if you want to see our old products please enter the name of the item</p>
                     </div>
                     <img 
-                        src="/images/About/Rectangle 40.svg"
+                        src="/images/About/Rectangle 40.png"
                         className="w-full pointer-events-none"
                     />
                 </div>

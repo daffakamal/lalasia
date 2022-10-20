@@ -8,7 +8,7 @@ export default function TeamList () {
         <div className="flex justify-between items-center pointer-events-none flex-wrap gap-10 pt-20" data-aos="fade-up" data-aos-duration="2000">
             <div className={styleContent}>
                 <img
-                    src="/images/About/Rectangle 23.svg"
+                    src="/images/About/Rectangle 23 (2).png"
                     className={styleImg}
                 />
                 <h3 className={stylePerson}>
@@ -20,7 +20,7 @@ export default function TeamList () {
             </div>
             <div className={styleContent}>
                 <img
-                    src="/images/About/Rectangle 23 (1).svg"
+                    src="/images/About/Rectangle 23 (1).png"
                     className={styleImg}
                 />
                 <h3 className={stylePerson}>
@@ -32,7 +32,7 @@ export default function TeamList () {
             </div>
             <div className={styleContent}>
                 <img
-                    src="/images/About/Rectangle 23 (2).svg"
+                    src="/images/About/Rectangle 23 (3).png"
                     className={styleImg}
                 />
                 <h3 className={stylePerson}>
@@ -44,7 +44,7 @@ export default function TeamList () {
             </div>
             <div className={styleContent}>
                 <img
-                    src="/images/About/Rectangle 23 (3).svg"
+                    src="/images/About/Rectangle 23 (4).png"
                     className={styleImg}
                 />
                 <h3 className={stylePerson}>
@@ -56,7 +56,7 @@ export default function TeamList () {
             </div>
             <div className={styleContent}>
                 <img
-                    src="/images/About/Rectangle 23 (4).svg"
+                    src="/images/About/Rectangle 23 (5).png"
                     className={styleImg}
                 />
                 <h3 className={stylePerson}>
@@ -68,7 +68,7 @@ export default function TeamList () {
             </div>
             <div className={styleContent}>
                 <img
-                    src="/images/About/Rectangle 23 (5).svg"
+                    src="/images/About/Rectangle 23 (6).png"
                     className={styleImg}
                 />
                 <h3 className={stylePerson}>
