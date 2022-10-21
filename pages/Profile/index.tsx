@@ -8,3 +8,5 @@ const Profile: NextPage = () => {
     </>
   );
 };
+
+export default Profile;
