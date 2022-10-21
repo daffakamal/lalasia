@@ -73,7 +73,7 @@ export default function MainProfile () {
                             </div>
                         </div>
                     </div>
-                    <div className="grid space-y-4">
+                    <div className="grid justify-items-start content-start space-y-4">
                         <h1 className="font-eudoxusBold text-5xl md:text-4xl leading-[70px] md:leading-[83px] text-[#151411]">
                             Hi, Username
                         </h1>
@@ -84,7 +84,7 @@ export default function MainProfile () {
                             <div className="grid rounded-xl bg-white drop-shadow-xl px-4 py-4 gap-x-5 cursor-pointer">
                                 <img
 									src="/images/Profile/daniil-silantev-1P6AnKDw6S8-unsplash.jpg"
-									className="w-[180px] h-[250px]"
+									className="w-[200px] h-[260px]"
                                     style={{ scale:"100%" }}
 								/>
                                 <div className="grid h-fit gap-y-3 max-w-fit">
@@ -102,7 +102,7 @@ export default function MainProfile () {
                             <div className="grid rounded-xl bg-white drop-shadow-xl px-4 py-4 gap-x-5 cursor-pointer">
                                 <img
 									src="/images/Profile/jean-philippe-delberghe-Ry9WBo3qmoc-unsplash.jpg"
-									className="w-[180px] h-[250px]"
+									className="w-[200px] h-[260px]"
                                     style={{ scale:"100%" }}
 								/>
                                 <div className="grid h-fit gap-y-3 max-w-fit">
