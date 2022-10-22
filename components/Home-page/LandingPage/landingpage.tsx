@@ -28,8 +28,8 @@ function LandingPage () {
             </div>
             <div className="grid justify-items-center z-10" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
                 <img
-                    src="/images/Home-page/Rectangle 2.svg"
-                    className="mt-10 md:-mt-7 w-[1240px]"
+                    src="/images/Home-page/Rectangle 2.png"
+                    className="mt-10 md:-mt-7 w-[1240px] pointer-events-none"
                     alt="Living room"
                 />
             </div>
