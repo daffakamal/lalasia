@@ -13,7 +13,7 @@ export default function ProductList () {
             <Link href="#!">
                 <div className={styleProductContainer}>
                     <img 
-                        src="/images/Products/Rectangle 23 (4).svg"
+                        src="/images/Products/Rectangle 23.png"
                         className={styleImg}
                     />
                     <h4 className={styleCategory}>
@@ -33,7 +33,7 @@ export default function ProductList () {
             <Link href="#!">
                 <div className={styleProductContainer}>
                     <img 
-                        src="/images/Products/Rectangle 23 (5).svg"
+                        src="/images/Products/Rectangle 23 (1).png"
                         className={styleImg}
                     />
                     <h4 className={styleCategory}>
@@ -53,7 +53,7 @@ export default function ProductList () {
             <Link href="#!">
                 <div className={styleProductContainer}>
                     <img 
-                        src="/images/Products/Rectangle 23 (6).svg"
+                        src="/images/Products/Rectangle 23 (2).png"
                         className={styleImg}
                     />
                     <h4 className={styleCategory}>
@@ -73,7 +73,7 @@ export default function ProductList () {
             <Link href="#!">
                 <div className={styleProductContainer}>
                     <img 
-                        src="/images/Products/Rectangle 23 (7).svg"
+                        src="/images/Products/Rectangle 23 (3).png"
                         className={styleImg}
                     />
                     <h4 className={styleCategory}>
@@ -93,7 +93,7 @@ export default function ProductList () {
             <Link href="#!">
                 <div className={styleProductContainer}>
                     <img 
-                        src="/images/Products/Rectangle 23 (8).svg"
+                        src="/images/Products/Rectangle 23 (4).png"
                         className={styleImg}
                     />
                     <h4 className={styleCategory}>
@@ -113,7 +113,7 @@ export default function ProductList () {
             <Link href="#!">
                 <div className={styleProductContainer}>
                     <img 
-                        src="/images/Products/Rectangle 23 (11).svg"
+                        src="/images/Products/Rectangle 23 (5).png"
                         className={styleImg}
                     />
                     <h4 className={styleCategory}>

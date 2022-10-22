@@ -15,8 +15,9 @@ function Title () {
             <div className="w-full 3xl:container 3xl:mx-auto pb-14">
                 <div className="relative overflow-hidden bg-no-repeat bg-cover" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-easing="ease-in" data-aos-delay="100">
                     <img 
-                        src="/images/Home-page/Rectangle 38.svg"
+                        src="/images/Products/Rectangle 38.png"
                         className="w-full pointer-events-none brightness-90"
+                        alt="Living room and kitchen"
                     />
                     <div className="w-full h-full absolute top-0 right-0 bottom-0 left-0 overflow-hidden bg-fixed">
                         <div className="h-full flex justify-start items-center px-[24px] sm:px-16 xl:px-32 2xl:px-[132px] py-[149px]">
