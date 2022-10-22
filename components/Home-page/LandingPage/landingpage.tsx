@@ -30,6 +30,7 @@ function LandingPage () {
                 <img
                     src="/images/Home-page/Rectangle 2.svg"
                     className="mt-10 md:-mt-7 w-[1240px]"
+                    alt="Living room"
                 />
             </div>
         </div>

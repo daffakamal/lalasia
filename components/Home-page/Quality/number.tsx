@@ -22,6 +22,7 @@ export default function Number () {
                 <img 
                     src="/images/Home-page/unsplash_376KN_ISplE.png"
                     className="pt-5 w-full lg:w-[595px] 2xl:w-[620px] pointer-events-none"
+                    alt="Sofa and dresser"
                 />
             </div>
         </div>

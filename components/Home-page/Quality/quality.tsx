@@ -26,6 +26,7 @@ function Quality () {
                         <img 
                             src="/images/Home-page/unsplash_mpN7xjKQ_Ns.png"
                             className="pt-5 w-full 2xl:w-[595px] pointer-events-none"
+                            alt="Wood"
                         />
                     </div>
                     <Number/>

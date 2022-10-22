@@ -29,6 +29,7 @@ function Article () {
                             <img 
                                 src="/images/Home-page/Rectangle 8.svg"
                                 className="w-full md:w-3/4 xl:w-[582px] 2xl:w-[582px] pointer-events-none"
+                                alt="Flower vase"
                             />
                             <div className={styleContent}>
                                 <h5 className={styleH5}>Tips and Trick</h5>

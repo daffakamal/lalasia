@@ -19,36 +19,29 @@ function Navbar() {
 										loading="lazy"
 										src="/images/Home-page/Frame 1.svg"
 										className="w-[99px] md:w-[120px] lg:w-[130px] cursor-pointer"
+										alt="Lalasia logo"
 									/>
 								</Link>
 							</div>
 							<div className="hidden lg:block">
 								<div className="flex space-x-2 lg:space-x-6 2xl:space-x-11">
 									<Link href="/Products">
-                                        <a
-										className={styleTextNav}
-                                        >
+                                        <a className={styleTextNav}>
                                         Product
                                         </a>
 									</Link>
 									<Link href="/Services">
-                                        <a
-										className={styleTextNav}
-                                        >
+                                        <a className={styleTextNav}>
                                         Services
                                         </a>
 									</Link>
 									<Link href="/Article">
-                                        <a
-										className={styleTextNav}
-                                        >
+                                        <a className={styleTextNav}>
                                         Article
                                         </a>
 									</Link>
 									<Link href="/About">
-                                        <a
-										className={styleTextNav}
-                                        >
+                                        <a className={styleTextNav}>
                                         About Us
                                         </a>
 									</Link>
@@ -59,12 +52,14 @@ function Navbar() {
 									<img
 										src="/images/Home-page/bag-2.svg"
 										className="hidden lg:block w-[30px] cursor-pointer"
+										alt="Shopping cart"
 									/>
 								</Link>
 								<Link href="/Profile">
 									<img
 										src="/images/Home-page/user.svg"
 										className="hidden lg:block w-[30px] cursor-pointer"
+										alt="Profile"
 									/>
 								</Link>
 							</div>

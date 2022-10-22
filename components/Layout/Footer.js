@@ -12,6 +12,7 @@ function Footer() {
                         <img   
                             src="/images/Home-page/Frame 1.svg"
                             className="w-[99px] md:w-[130px] pointer-events"
+                            alt="Lalasia logo"
                         />
                     </Link>
                     <p className="font-eudoxusMedium text-sm sm:text-base md:text-lg leading-[25px] sm:leading-[32px] text-black pt-5 md:pt-10">

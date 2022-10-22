@@ -17,6 +17,7 @@ export default function ArticleCards () {
                     <img
                         src="/images/Home-page/Rectangle 20 (1).png"
                         className={styleImg}
+                        alt="Aesthetic dresser"
                     />
                     <div className={styleContent}>
                         <h5 className={styleH5}>Tips and Trick</h5>
@@ -36,6 +37,7 @@ export default function ArticleCards () {
                     <img
                         src="/images/Home-page/Rectangle 20 (1).png"
                         className={styleImg}
+                        alt="Aesthetic dresser"
                     />
                     <div className={styleContent}>
                         <h5 className={styleH5}>Design Inspiration</h5>
@@ -55,6 +57,7 @@ export default function ArticleCards () {
                     <img
                         src="/images/Home-page/Rectangle 20 (2).png"
                         className={styleImg}
+                        alt="Aesthetic bedroom"
                     />
                     <div className={styleContent}>
                         <h5 className={styleH5}>Tips and Trick</h5>
