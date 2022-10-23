@@ -14,11 +14,19 @@ function Article () {
         <>
         <div className="w-full h-full grid content-center px-16 xl:px-32 2xl:px-52 pb-24 bg-white">
             <div className="grid xl:container xl:mx-auto space-y-3">
-                <h3 className="font-eudoxusBold text-yellow text-sm sm:text-base md:text-lg" data-aos="fade-right" data-aos-duration="1500">
+                <h3 
+                    className="font-eudoxusBold text-yellow text-sm sm:text-base md:text-lg" 
+                    data-aos="fade-right" 
+                    data-aos-duration="1500"
+                >
                     Articles
                 </h3>
                 <div className="flex items-start flex-col 2xl:flex-row gap-10 md:gap-28">
-                    <div className="grid content-start space-y-10 w-full" data-aos="fade-right" data-aos-duration="1500">
+                    <div 
+                        className="grid content-start space-y-10 w-full" 
+                        data-aos="fade-right" 
+                        data-aos-duration="1500"
+                    >
                         <h2 className="font-eudoxusBold text-black text-[24px] sm:text-[40px] md:text-[44px] leading-[31px] sm:leading-[57px]">
                             The best furniture comes from Lalasia
                         </h2>
@@ -27,21 +35,31 @@ function Article () {
                         </p>
                         <div className="grid justify-items-center pt-5 max-w-sm md:max-w-full">
                             <img 
-                                src="/images/Home-page/Rectangle 8.svg"
+                                src="/images/Home-page/Rectangle 8.png"
                                 className="w-full md:w-3/4 xl:w-[582px] 2xl:w-[582px] pointer-events-none"
                                 alt="Flower vase"
                             />
                             <div className={styleContent}>
-                                <h5 className={styleH5}>Tips and Trick</h5>
-                                <h4 className={styleH4}>6 ways to give your home minimalistic vibes</h4>
-                                <p className={styleP}>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .</p>
+                                <h5 className={styleH5}>
+                                    Tips and Trick
+                                </h5>
+                                <h4 className={styleH4}>
+                                    6 ways to give your home minimalistic vibes
+                                </h4>
+                                <p className={styleP}>
+                                    Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .
+                                </p>
                                 <div className={styleWriterContainer}>
                                     <img
                                         src="/images/Home-page/Ellipse 25.png"
                                         className={styleImgWriter}
                                     />
-                                    <p className={styleWriter}>By Jerremy Jean</p>
-                                    <p className={styleDate}>Friday, 1 April 2022</p>
+                                    <p className={styleWriter}>
+                                        By Jerremy Jean
+                                    </p>
+                                    <p className={styleDate}>
+                                        Friday, 1 April 2022
+                                    </p>
                                 </div>
                             </div>
                         </div>

@@ -11,7 +11,11 @@ const styleDate="invisible font-eudoxusMedium text-[14px] text-grey"
 
 export default function ArticleCards () {
     return (
-        <div className="w-full grid space-y-5" data-aos="fade-left" data-aos-duration="1500">
+        <div 
+            className="w-full grid space-y-5" 
+            data-aos="fade-left" 
+            data-aos-duration="1500"
+        >
             <div className="grid my-auto space-y-10">
                 <div className={styleMain}>
                     <img
@@ -20,16 +24,26 @@ export default function ArticleCards () {
                         alt="Aesthetic dresser"
                     />
                     <div className={styleContent}>
-                        <h5 className={styleH5}>Tips and Trick</h5>
-                        <h4 className={styleH4}>6 ways to give your home minimalistic vibes</h4>
-                        <p className={styleP}>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .</p>
+                        <h5 className={styleH5}>
+                            Tips and Trick
+                        </h5>
+                        <h4 className={styleH4}>
+                            6 ways to give your home minimalistic vibes
+                        </h4>
+                        <p className={styleP}>
+                            Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .
+                        </p>
                         <div className={styleWriterContainer}>
                             <img
                                 src="/images/Home-page/Ellipse 25.svg"
                                 className={styleImgWriter}
                             />
-                            <p className={styleWriter}>By Jerremy Jean</p>
-                            <p className={styleDate}>Friday, 1 April 2022</p>
+                            <p className={styleWriter}>
+                                By Jerremy Jean
+                            </p>
+                            <p className={styleDate}>
+                                Friday, 1 April 2022
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -40,16 +54,26 @@ export default function ArticleCards () {
                         alt="Aesthetic dresser"
                     />
                     <div className={styleContent}>
-                        <h5 className={styleH5}>Design Inspiration</h5>
-                        <h4 className={styleH4}>How to make your interiors cooler and more stylish</h4>
-                        <p className={styleP}>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .</p>
+                        <h5 className={styleH5}>
+                            Design Inspiration
+                        </h5>
+                        <h4 className={styleH4}>
+                            How to make your interiors cooler and more stylish
+                        </h4>
+                        <p className={styleP}>
+                            Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .
+                        </p>
                         <div className={styleWriterContainer}>
                             <img
                                 src="/images/Home-page/Ellipse 25 (1).svg"
                                 className={styleImgWriter}
                             />
-                            <p className={styleWriter}>By Michaela Augus</p>
-                            <p className={styleDate}>Friday, 1 April 2022</p>
+                            <p className={styleWriter}>
+                                By Michaela Augus
+                            </p>
+                            <p className={styleDate}>
+                                Friday, 1 April 2022
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -60,16 +84,26 @@ export default function ArticleCards () {
                         alt="Aesthetic bedroom"
                     />
                     <div className={styleContent}>
-                        <h5 className={styleH5}>Tips and Trick</h5>
-                        <h4 className={styleH4}>Elements to add character to your space</h4>
-                        <p className={styleP}>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .</p>
+                        <h5 className={styleH5}>
+                            Tips and Trick
+                        </h5>
+                        <h4 className={styleH4}>
+                            Elements to add character to your space
+                        </h4>
+                        <p className={styleP}>
+                            Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .
+                        </p>
                         <div className={styleWriterContainer}>
                             <img
                                 src="/images/Home-page/Ellipse 25 (2).svg"
                                 className={styleImgWriter}
                             />
-                            <p className={styleWriter}>By Kim Gurameh</p>
-                            <p className={styleDate}>Friday, 1 April 2022</p>
+                            <p className={styleWriter}>
+                                By Kim Gurameh
+                            </p>
+                            <p className={styleDate}>
+                                Friday, 1 April 2022
+                            </p>
                         </div>
                     </div>
                 </div>
