@@ -9,7 +9,11 @@ function Navbar() {
 	
 	return (
 		<div>
-			<nav className="w-full fixed bg-white px-7 sm:px-16 xl:px-32 2xl:px-52 border-t-transparent border-l-transparent border-r-transparent border-2 border-[#F3F3F3] z-50" data-aos="zoom-out-down" data-aos-duration="1500">
+			<nav 
+				className="w-full fixed bg-white px-7 sm:px-16 xl:px-32 2xl:px-52 border-t-transparent border-l-transparent border-r-transparent border-2 border-[#F3F3F3] z-50" 
+				data-aos="zoom-out-down" 
+				data-aos-duration="1500"
+			>
 				<div className="w-full xl:container xl:mx-auto">
 					<div className="w-full flex items-center h-16 xl:h-20">
 						<div className="w-full flex items-center justify-between">
@@ -27,22 +31,22 @@ function Navbar() {
 								<div className="flex space-x-2 lg:space-x-6 2xl:space-x-11">
 									<Link href="/Products">
                                         <a className={styleTextNav}>
-                                        Product
+                                        	Product
                                         </a>
 									</Link>
 									<Link href="/Services">
                                         <a className={styleTextNav}>
-                                        Services
+                                        	Services
                                         </a>
 									</Link>
 									<Link href="/Article">
                                         <a className={styleTextNav}>
-                                        Article
+                                        	Article
                                         </a>
 									</Link>
 									<Link href="/About">
                                         <a className={styleTextNav}>
-                                        About Us
+                                        	About Us
                                         </a>
 									</Link>
 								</div>

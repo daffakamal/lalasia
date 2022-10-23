@@ -17,7 +17,7 @@ function Footer() {
                     </Link>
                     <p className="font-eudoxusMedium text-sm sm:text-base md:text-lg leading-[25px] sm:leading-[32px] text-black pt-5 md:pt-10">
                         Lalasia is digital agency that help you make better experience iaculis cras in.
-                        </p>
+                    </p>
                 </div>
                 <div className="grid content-start col-span-1 sm:col-span-3 sm:flex sm:flex-wrap row-span-3 lg:row-span-1 justify-end lg:col-span-2 justify-between sm:pt-20 lg:pt-0">
                     <div className="grid space-y-5">
