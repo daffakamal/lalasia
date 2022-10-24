@@ -15,6 +15,7 @@ export default function ProductList () {
                     <img 
                         src="/images/Products/Rectangle 23.png"
                         className={styleImg}
+                        alt="White aesthetic chair"
                     />
                     <h4 className={styleCategory}>
                         Chair
@@ -35,12 +36,13 @@ export default function ProductList () {
                     <img 
                         src="/images/Products/Rectangle 23 (1).png"
                         className={styleImg}
+                        alt="Wood cupboard"
                     />
                     <h4 className={styleCategory}>
                         Cupboard
                     </h4>
                     <h3 className={styleProduct}>
-                        Wooden Cupboard 3 Row
+                        White Aesthetic Chair
                     </h3>
                     <p className={styleDescription}>
                         Combination of wood and wool
@@ -55,6 +57,7 @@ export default function ProductList () {
                     <img 
                         src="/images/Products/Rectangle 23 (2).png"
                         className={styleImg}
+                        alt="Minimalist lounge chair"
                     />
                     <h4 className={styleCategory}>
                         Chair
@@ -75,6 +78,7 @@ export default function ProductList () {
                     <img 
                         src="/images/Products/Rectangle 23 (3).png"
                         className={styleImg}
+                        alt="Working desk setup"
                     />
                     <h4 className={styleCategory}>
                         Table
@@ -95,12 +99,13 @@ export default function ProductList () {
                     <img 
                         src="/images/Products/Rectangle 23 (4).png"
                         className={styleImg}
+                        alt="Minimalist white cupboard"
                     />
                     <h4 className={styleCategory}>
                         Cupboard
                     </h4>
                     <h3 className={styleProduct}>
-                        Minimalist White Cuppboard
+                        Minimalist White Cupboard
                     </h3>
                     <p className={styleDescription}>
                         Combination of wood and wool
@@ -115,6 +120,7 @@ export default function ProductList () {
                     <img 
                         src="/images/Products/Rectangle 23 (5).png"
                         className={styleImg}
+                        alt="Wooden dining table"
                     />
                     <h4 className={styleCategory}>
                         Table

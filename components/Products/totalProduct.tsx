@@ -12,10 +12,31 @@ function TotalProduct () {
                         <form>   
                             <div className="relative">
                                 <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
-                                    <svg aria-hidden="true" className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                                    <svg 
+                                    aria-hidden="true" 
+                                    className="w-5 h-5 text-gray-500" 
+                                    fill="none" 
+                                    stroke="currentColor" 
+                                    viewBox="0 0 24 24" 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path 
+                                        stroke-linecap="round" 
+                                        stroke-linejoin="round" 
+                                        stroke-width="2" 
+                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z">
+                                        </path>
+                                    </svg>
                                 </div>
-                                <input type="search" className="font-eudoxusMedium block p-4 pl-10 w-[300px] sm:w-[390px] md:w-[460px] lg:w-[600px] text-base md:text-lg text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:border-green3 focus:ring-green3 focus:ring-1" placeholder="Search property" />
-                                <button type="submit" className="font-eudoxusMedium text-white absolute right-2.5 bottom-2.5 bg-green hover:bg-green2 rounded-lg text-base md:text-lg px-4 py-2 pointer-event">
+                                <input 
+                                    type="search" 
+                                    className="font-eudoxusMedium block p-4 pl-10 w-[300px] sm:w-[390px] md:w-[460px] lg:w-[600px] text-base md:text-lg text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:border-green3 focus:ring-green3 focus:ring-1" 
+                                    placeholder="Search property" 
+                                />
+                                <button 
+                                    type="submit" 
+                                    className="font-eudoxusMedium text-white absolute right-2.5 bottom-2.5 bg-green hover:bg-green2 rounded-lg text-base md:text-lg px-4 py-2 pointer-event"
+                                >
                                     Search
                                 </button>
                             </div>
@@ -24,6 +45,7 @@ function TotalProduct () {
                             <img 
                                 src="/images/Products/filter.svg"
                                 className="w-[25px] pointer-events-none"
+                                alt="Filter icon"
                             />
                             Filter
                         </button>
@@ -34,17 +56,23 @@ function TotalProduct () {
                                 Total Product
                             </h2>
                             <div className="flex items-center px-4 py-1 font-eudoxusMedium text-green bg-whitebasic rounded-3xl text-xs sm:text-base md:text-lg">
-                                <a>184</a>
+                                <a>
+                                    184
+                                </a>
                             </div>
                         </div>
-                        <div className="flex justify-end hidden md:flex">
+                        <div className="hidden md:flex justify-end">
                             <div className="flex items-center">
-                                <Menu as="div" className="relative inline-block text-left">
+                                <Menu 
+                                    as="div" 
+                                    className="relative inline-block text-left"
+                                >
                                     <div>
                                         <Menu.Button className="inline-flex w-full justify-center rounded-md bg-whitebasic hover:bg-gray-100 px-4 py-2 font-eudoxusMedium text-base md:text-lg text-black">
                                             <img 
-                                            src="/images/Products/sort.svg"
-                                            className="w-[25px] pointer-events-none"
+                                                src="/images/Products/sort.svg"
+                                                className="w-[25px] pointer-events-none"
+                                                alt="Sort by icon"
                                             />
                                             Sort By
                                         </Menu.Button>
