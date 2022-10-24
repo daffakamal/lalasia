@@ -4,7 +4,11 @@ import { ArrowLongRightIcon } from '@heroicons/react/24/outline';
 function Interested () {
     return (
         <div className="w-full h-full grid content-center px-7 sm:px-16 xl:px-32 2xl:px-52 pt-28 bg-white">
-            <div className="grid lg:grid-cols-4 xl:container xl:mx-auto" data-aos="fade-zoom-in" data-aos-duration="2000">
+            <div 
+                className="grid lg:grid-cols-4 xl:container xl:mx-auto" 
+                data-aos="fade-zoom-in" 
+                data-aos-duration="2000"
+            >
                 <h2 className="col-span-3 font-eudoxusBold text-black text-[24px] sm:text-[40px] md:text-[44px] leading-[31px] sm:leading-[57px]">
                     Are you interested work with us?
                 </h2>

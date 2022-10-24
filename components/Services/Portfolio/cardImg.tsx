@@ -8,6 +8,7 @@ export default function CardImg() {
                     <img 
                         src="/images/Services/Rectangle 40.svg"
                         className="w-[505px] pointer-events-none"
+                        alt="Aesthetic bedroom"
                     />
                     <div className="w-full h-full absolute top-0 right-0 bottom-0 left-0 overflow-hidden bg-fixed">
                         <div className="h-full flex items-end px-[24px] sm:px-16 py-[40px]">
@@ -33,6 +34,7 @@ export default function CardImg() {
                     <img 
                         src="/images/Services/Rectangle 38.svg"
                         className="h-full pointer-events-none"
+                        alt="Living room design"
                     />
                     <div className="w-full h-full absolute top-0 right-0 bottom-0 left-0 overflow-hidden bg-fixed">
                         <div className="h-full flex items-end px-[24px] sm:px-16 py-[40px]">
@@ -56,6 +58,7 @@ export default function CardImg() {
                     <img 
                         src="/images/Services/Rectangle 39.svg"
                         className="w-full h-full pointer-events-none"
+                        alt="Cozy co-working space"
                     />
                     <div className="w-full h-full absolute top-0 right-0 bottom-0 left-0 overflow-hidden bg-fixed">
                         <div className="h-full flex items-end px-[24px] sm:px-16 py-[40px]">
