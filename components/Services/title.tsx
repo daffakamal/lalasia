@@ -1,8 +1,8 @@
-function Title () {
-    const styleNumber="font-eudoxusBold text-green text-4xl sm:text-5xl md:text-[64px]"
-    const styleSubTitle="font-eudoxusBold text-black text-sm sm:text-lg md:text-2xl lg:text-[24px] sm:pt-2 md:pt-5"
-    const styleDescription="font-eudoxusMedium text-grey text-xs sm:text-sm md:text-lg lg:text-lg"
+const styleNumber="font-eudoxusBold text-green text-4xl sm:text-5xl md:text-[64px]"
+const styleSubTitle="font-eudoxusBold text-black text-sm sm:text-lg md:text-2xl lg:text-[24px] sm:pt-2 md:pt-5"
+const styleDescription="font-eudoxusMedium text-grey text-xs sm:text-sm md:text-lg lg:text-lg"
 
+function Title () {
     return (
         <div className="w-full h-full bg-white">
             <div className="grid justify-items-center px-[24px] sm:px-16 xl:px-32 2xl:px-52 pt-28 md:pt-32 lg:pt-52">
