@@ -29,6 +29,11 @@ function Navbar() {
 							</div>
 							<div className="hidden lg:block">
 								<div className="flex space-x-2 lg:space-x-6 2xl:space-x-11">
+									<Link href="/">
+                                        <a className={styleTextNav}>
+                                        	Home
+                                        </a>
+									</Link>
 									<Link href="/Products">
                                         <a className={styleTextNav}>
                                         	Product
@@ -131,30 +136,27 @@ function Navbar() {
 										ref={ref}
 										className="grid pt-2 pb-3 space-y-5 text-right font-eudoxusMedium text-sm sm:text-base md:text-lg cursor-pointer text-black hover:text-green py-2"
 									>
-										<Link
-											href="/Products"
-										>
+										<Link href="/">
+											<a>
+												Home
+											</a>
+										</Link>
+										<Link href="/Products">
 											<a>
 												Product
 											</a>
 										</Link>
-										<Link
-											href="/Services"
-										>
+										<Link href="/Services">
 											<a>
 												Services
 											</a>
 										</Link>
-										<Link
-											href="/Article"
-										>
+										<Link href="/Article">
 											<a>
 												Article
 											</a>
 										</Link>
-										<Link
-											href="/"
-										>
+										<Link href="/">
 											<a>
 												About Us
 											</a>
