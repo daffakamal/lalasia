@@ -3,7 +3,11 @@ import Link from "next/link";
 function DailyNews () {
     return (
         <div className="w-full h-full grid content-center px-[24px] sm:px-16 xl:px-32 2xl:px-52 pt-36 bg-white">
-            <div className="grid xl:container xl:mx-auto space-y-3" data-aos="fade-up" data-aos-duration="2000">
+            <div 
+                className="grid xl:container xl:mx-auto space-y-3" 
+                data-aos="fade-up" 
+                data-aos-duration="2000"
+            >
                 <h5 className="font-eudoxusBold text-yellow text-sm sm:text-base md:text-lg">
                     Daily News
                 </h5>
@@ -12,10 +16,11 @@ function DailyNews () {
                 </h2>
                 <div className="flex flex-col 2xl:flex-row gap-20 pt-5">
                     <Link href="/DetailArticle/bedroom_design">
-                        <div className="grid content-start space-y-3 md:space-y-5 w-full cursor-pointer hover:p-5 duration-200 ease-in hover:bg-orangeLight hover:rounded-xl ">
+                        <div className="grid content-start space-y-3 md:space-y-5 w-full cursor-pointer p-5 duration-200 hover:bg-orangeLight hover:rounded-xl">
                             <img 
                                 src="/images/Article/Rectangle 44.svg"
                                 className="w-full xl:w-[582px] 2xl:w-full pointer-events-none"
+                                alt="Bedroom"
                             />
                             <p className="font-eudoxusMedium text-grey text-xs sm:text-sm md:text-lg">
                                 Design Inspiration
@@ -30,6 +35,7 @@ function DailyNews () {
                                 <img
                                     src="/images/Article/Ellipse 25 (3).svg"
                                     className="w-[20px] sm:w-[23px] md:w-[35px] pointer-events-none"
+                                    alt="Person's photo"
                                 />
                                 <p className="font-eudoxusBold text-black text-xs md:text-[14px]">
                                     By Jenny Agnes
@@ -41,10 +47,11 @@ function DailyNews () {
                         </div>
                     </Link>
                     <Link href="#!">
-                        <div className="grid content-start space-y-3 md:space-y-5 w-full cursor-pointer hover:p-5 duration-200 ease-in hover:bg-orangeLight hover:rounded-xl">
+                        <div className="grid content-start space-y-3 md:space-y-5 w-full cursor-pointer p-5 duration-200 hover:bg-orangeLight hover:rounded-xl">
                             <img 
                                 src="/images/Article/Rectangle 41 (1).svg"
                                 className="w-full xl:w-[582px] 2xl:w-full pointer-events-none"
+                                alt="Living room"
                             />
                             <p className="font-eudoxusMedium text-grey text-xs sm:text-sm md:text-lg">
                                 Tips and Trick
@@ -59,6 +66,7 @@ function DailyNews () {
                                 <img
                                     src="/images/Article/Ellipse 25 (4).svg"
                                     className="w-[20px] sm:w-[23px] md:w-[35px] pointer-events-none"
+                                    alt="Person's photo"
                                 />
                                 <p className="font-eudoxusBold text-black text-xs md:text-[14px]">
                                     By Juliana Athorn

@@ -29,7 +29,7 @@ function TrendingTopics () {
                             Color Guide
                         </div>
                     </div>
-                    <div className="flex justify-end">
+                    <div className="hidden flex justify-end">
                         <button className="lg:h-full items-center hidden md:flex px-5 lg:px-5 py-3 font-eudoxusMedium text-black bg-whitebasic hover:bg-gray-100 rounded-lg border border-grey text-base md:text-lg cursor-pointer">
                             <img 
                                 src="/images/Products/sort.svg"
