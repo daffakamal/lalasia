@@ -11,37 +11,63 @@ function OurMission () {
     return (
         <div className="w-full h-full grid content-center px-[24px] sm:px-16 xl:px-32 2xl:px-52 py-32 lg:py-48 bg-white">
             <div className="grid xl:container xl:mx-auto space-y-3">
-                <h5 className="font-eudoxusBold text-yellow text-sm sm:text-base md:text-lg" data-aos="fade-right" data-aos-duration="2000">
+                <h5 
+                    className="font-eudoxusBold text-yellow text-sm sm:text-base md:text-lg" 
+                    data-aos="fade-right" 
+                    data-aos-duration="2000"
+                >
                     Our Mission
                 </h5>
                 <div className="grid grid-cols-1 xl:grid-cols-2 gap-20 2xl:gap-[150px]">
-                    <div data-aos="fade-right" data-aos-duration="2000">
+                    <div 
+                        data-aos="fade-right" 
+                        data-aos-duration="2000"
+                    >
                         <div className="font-eudoxusBold text-black text-[24px] sm:text-[40px] md:text-[44px] leading-[31px] sm:leading-[57px]">
-                            <h2>Our team dedicated to help find  smart home product</h2>
+                            <h2>
+                                Our team dedicated to help find  smart home product
+                            </h2>
                         </div>
                         <div className="w-full grid pt-20 my-auto">
                             <div className="grid grid-cols-3 justify-items-start space-x-10">
                                 <div>
-                                    <p className={styleNumber}>20+</p>
-                                    <p className={styleWord}>Years Experience</p>
+                                    <p className={styleNumber}>
+                                        20+
+                                    </p>
+                                    <p className={styleWord}>
+                                        Years Experience
+                                    </p>
                                 </div>
                                 <div>
-                                    <p className={styleNumber}>483</p>
-                                    <p className={styleWord}>Happy Client</p>
+                                    <p className={styleNumber}>
+                                        483
+                                    </p>
+                                    <p className={styleWord}>
+                                        Happy Client
+                                    </p>
                                 </div> 
                                 <div>
-                                    <p className={styleNumber}>150+</p>
-                                    <p className={styleWord}>Project Finished</p>
+                                    <p className={styleNumber}>
+                                        150+
+                                    </p>
+                                    <p className={styleWord}>
+                                        Project Finished
+                                    </p>
                                 </div> 
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div className="grid space-y-10 justify-items-start" data-aos="fade-left" data-aos-duration="2000">
+                        <div 
+                            className="grid space-y-10 justify-items-start" 
+                            data-aos="fade-left" 
+                            data-aos-duration="2000"
+                        >
                             <div className={styleContent}>
                                 <img 
                                     src="/images/About/Group 15 (1).svg"
                                     className={styleImg}
+                                    alt="Telephone"
                                 />
                                 <div className={styleSubContent}>
                                     <h3 className={styleTitle}>
@@ -56,6 +82,7 @@ function OurMission () {
                                 <img 
                                     src="/images/About/Group 16.svg"
                                     className={styleImg}
+                                    alt="Free consultation"
                                 />
                                 <div className={styleSubContent}>
                                     <h3 className={styleTitle}>
@@ -70,6 +97,7 @@ function OurMission () {
                                 <img 
                                     src="/images/About/Group 17.svg"
                                     className={styleImg}
+                                    alt="Guaranteed"
                                 />
                                 <div className={styleSubContent}>
                                     <h3 className={styleTitle}>

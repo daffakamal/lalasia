@@ -8,11 +8,14 @@ function Title () {
                         About Us
                     </h2>
                     <div className="font-eudoxusRegular text-sm sm:text-base md:text-lg text-grey leading-[25px] sm:leading-[32px] text-center pb-14" data-aos="fade-zoom-in" data-aos-duration="2000">
-                        <p>We display products based on the latest products we have, if you want to see our old products please enter the name of the item</p>
+                        <p>
+                            We display products based on the latest products we have, if you want to see our old products please enter the name of the item
+                        </p>
                     </div>
                     <img 
                         src="/images/About/Rectangle 40.png"
                         className="w-full pointer-events-none"
+                        alt="Working space"
                     />
                 </div>
             </div>
