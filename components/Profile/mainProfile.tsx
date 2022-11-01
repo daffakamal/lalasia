@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { ArchiveBoxIcon } from '@heroicons/react/24/solid';
 import { ShoppingCartIcon } from '@heroicons/react/24/solid';
 import { ListBulletIcon } from '@heroicons/react/24/solid';
@@ -69,12 +71,14 @@ export default function MainProfile () {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex mx-auto w-fit mt-20 ml-0 gap-x-4 rounded-xl hover:bg-greenLight px-5 py-3 cursor-pointer">
-                            <ArrowLeftIcon className="w-6 text-black"/>
-                            <a className="font-eudoxusMedium text-black">
-                                Back to Home
-                            </a>
-                        </div>
+                        <Link href="/">
+                            <div className="flex mx-auto w-fit mt-20 ml-0 gap-x-4 rounded-xl hover:bg-greenLight px-5 py-3 cursor-pointer">
+                                <ArrowLeftIcon className="w-6 text-black"/>
+                                <a className="font-eudoxusMedium text-black">
+                                    Back to Home
+                                </a>
+                            </div>
+                        </Link>
                     </div>
                     <div className="grid justify-items-start content-start space-y-2">
                         <h1 className="font-eudoxusBold text-5xl md:text-4xl leading-[70px] md:leading-[83px] text-[#151411]">
