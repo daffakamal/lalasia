@@ -48,7 +48,7 @@ function Product () {
                         <img
                             src={dresser.src}
                             className={styleImg}
-                            alt="Dresser"
+                            alt="Dresser variant"
                         />
                         <div className={styleContent}>
                             <h5 className={styleH5}>
@@ -68,7 +68,7 @@ function Product () {
                         <img
                             src="/images/Home-page/Rectangle 23 (1).svg"
                             className={styleImg}
-                            alt="Dresser"
+                            alt="White aesthetic chair"
                         />
                         <div className={styleContent}>
                             <h5 className={styleH5}>
@@ -88,7 +88,7 @@ function Product () {
                         <img
                             src="/images/Home-page/Rectangle 23 (2).svg"
                             className={styleImg}
-                            alt="Dresser"
+                            alt="Smart lamp"
                         />
                         <div className={styleContent}>
                             <h5 className={styleH5}>
@@ -108,7 +108,7 @@ function Product () {
                         <img
                             src="/images/Home-page/Rectangle 23 (6).svg"
                             className={styleImg}
-                            alt="Dresser"
+                            alt="Mediteranian sofa"
                         />
                         <div className={styleContent}>
                             <h5 className={styleH5}>
