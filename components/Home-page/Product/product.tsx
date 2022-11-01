@@ -5,6 +5,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 import dresser from "../../../public/images/Home-page/Rectangle 23 (5).svg";
+import chair from "../../../public/images/Home-page/Rectangle 23 (1).svg";
+import lamp from "../../../public/images/Home-page/Rectangle 23 (2).svg";
+import sofa from "../../../public/images/Home-page/Rectangle 23 (6).svg";
 
 const styleImg="w-auto mb-5"
 const styleContent="w-full flex flex-col self-center space-y-3 md:space-y-2 my-auto"
@@ -66,7 +69,7 @@ function Product () {
                 <SwiperSlide>
                     <div className="grid mx-auto overflow-hidden xl:px-20 xl:py-5 px-7 py-3">
                         <img
-                            src="/images/Home-page/Rectangle 23 (1).svg"
+                            src={chair.src}
                             className={styleImg}
                             alt="White aesthetic chair"
                         />
@@ -86,7 +89,7 @@ function Product () {
                 <SwiperSlide>
                     <div className="grid mx-auto overflow-hidden xl:px-20 xl:py-5 px-7 py-3">
                         <img
-                            src="/images/Home-page/Rectangle 23 (2).svg"
+                            src={lamp.src}
                             className={styleImg}
                             alt="Smart lamp"
                         />
@@ -106,7 +109,7 @@ function Product () {
                 <SwiperSlide>
                     <div className="grid mx-auto overflow-hidden xl:px-20 xl:py-5 px-7 py-3">
                         <img
-                            src="/images/Home-page/Rectangle 23 (6).svg"
+                            src={sofa.src}
                             className={styleImg}
                             alt="Mediteranian sofa"
                         />
