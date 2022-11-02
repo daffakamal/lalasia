@@ -1,8 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from "swiper";
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
 import dresser from "../../../public/images/Home-page/Rectangle 23 (5).svg";
 import chair from "../../../public/images/Home-page/Rectangle 23 (1).svg";
@@ -36,15 +36,13 @@ function Product () {
             <Swiper 
                 data-aos="fade-up" 
                 data-aos-duration="1500"
+                modules={[Navigation]}
                 spaceBetween={-40}
                 slidesPerView={3}
+                navigation={true} 
                 grabCursor={true}
                 loop={true}
-                navigation
-                pagination
                 className="w-full"
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
             >
                 <SwiperSlide>
                     <div className="grid mx-auto overflow-hidden xl:px-20 xl:py-5 px-7 py-3">
