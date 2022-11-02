@@ -7,7 +7,6 @@ import 'swiper/css/navigation';
 import "swiper/css/pagination";
 import SwiperCore, { Autoplay } from 'swiper';
   
-// install Swiper modules
 SwiperCore.use([Autoplay]);
 
 import person1 from "../../../public/images/Home-page/Ellipse 1.png";
@@ -34,7 +33,9 @@ function Testimony () {
                     What our customer say
                 </h2>
                 <div className="font-eudoxusRegular text-sm sm:text-base md:text-lg leading-[25px] sm:leading-[32px] text-grey pb-20">
-                    <p>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.</p>
+                    <p>
+                        Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.
+                    </p>
                 </div>
                 <Swiper 
                     data-aos="fade-zoom-in" 

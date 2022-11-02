@@ -1,3 +1,7 @@
+import ChoicesImg from "../../../public/images/Home-page/Benefit/Group 4 (1).png";
+import CalendarImg from "../../../public/images/Home-page/Benefit/Group 5.png";
+import PriceImg from "../../../public/images/Home-page/Benefit/Group 4.png";
+
 const styleH4="font-eudoxusBold text-black text-[16px] sm:text-[22px] md:text-[24px]"
 const styleP="font-eudoxusRegular text-grey text-sm sm:text-base md:text-lg leading-[25px] sm:leading-[32px]"
 const styleImg="w-[44px] sm:w-[55px] md:w-[62px]"
@@ -14,7 +18,7 @@ export default function Cards () {
                 <div className="rounded bg-[#FFFFFF] p-[16px] sm:p-10">
                     <div className="grid space-y-5">
                         <img
-                            src="/images/Home-page/Benefit/Group 4 (1).png"
+                            src={ChoicesImg.src}
                             className={styleImg}
                             alt="Choices list"
                         />
@@ -29,7 +33,7 @@ export default function Cards () {
                 <div className="rounded bg-[#FFFFFF] p-[16px] sm:p-10">
                     <div className="grid space-y-5">
                         <img
-                            src="/images/Home-page/Benefit/Group 5.png"
+                            src={CalendarImg.src}
                             className={styleImg}
                             alt="Calendar"
                         />
@@ -44,7 +48,7 @@ export default function Cards () {
                 <div className="rounded bg-[#FFFFFF] p-[16px] sm:p-10">
                     <div className="grid space-y-5">
                         <img
-                            src="/images/Home-page/Benefit/Group 4.png"
+                            src={PriceImg.src}
                             className={styleImg}
                             alt="Affordable price"
                         />

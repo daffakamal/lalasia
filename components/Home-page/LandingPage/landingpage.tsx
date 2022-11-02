@@ -1,5 +1,7 @@
 import Background from "./background";
 
+import Cover from "../../../public/images/Home-page/Rectangle 2.png";
+
 function LandingPage () {
     return (
         <>
@@ -59,7 +61,7 @@ function LandingPage () {
                 data-aos-delay="400"
             >
                 <img
-                    src="/images/Home-page/Rectangle 2.png"
+                    src={Cover.src}
                     className="mt-10 md:-mt-7 w-[1240px] pointer-events-none"
                     alt="Living room"
                 />
