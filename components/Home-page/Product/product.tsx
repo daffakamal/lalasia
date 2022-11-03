@@ -9,6 +9,7 @@ import chair from "../../../public/images/Home-page/Rectangle 23 (1).svg";
 import lamp from "../../../public/images/Home-page/Rectangle 23 (2).svg";
 import sofa from "../../../public/images/Home-page/Rectangle 23 (6).svg";
 
+const styleContainer="grid mx-auto overflow-hidden px-7 xl:px-10 2xl:px-16 py-3 xl:py-5"
 const styleImg="w-auto mb-5"
 const styleContent="w-full flex flex-col self-center space-y-3 md:space-y-2 my-auto"
 const styleH5="font-eudoxusMedium text-[12px] sm:text-[14px] md:text-[16px] text-grey pt-5 md:pt-0"
@@ -37,15 +38,16 @@ function Product () {
                 data-aos="fade-up" 
                 data-aos-duration="1500"
                 modules={[Navigation]}
-                spaceBetween={-40}
+                spaceBetween={10}
                 slidesPerView={3}
                 navigation={true} 
                 grabCursor={true}
                 loop={true}
+
                 className="w-full"
             >
                 <SwiperSlide>
-                    <div className="grid mx-auto overflow-hidden xl:px-20 xl:py-5 px-7 py-3">
+                    <div className={styleContainer}>
                         <img
                             src={dresser.src}
                             className={styleImg}
@@ -65,7 +67,7 @@ function Product () {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="grid mx-auto overflow-hidden xl:px-20 xl:py-5 px-7 py-3">
+                    <div className={styleContainer}>
                         <img
                             src={chair.src}
                             className={styleImg}
@@ -85,7 +87,7 @@ function Product () {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="grid mx-auto overflow-hidden xl:px-20 xl:py-5 px-7 py-3">
+                    <div className={styleContainer}>
                         <img
                             src={lamp.src}
                             className={styleImg}
@@ -105,7 +107,7 @@ function Product () {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="grid mx-auto overflow-hidden xl:px-20 xl:py-5 px-7 py-3">
+                    <div className={styleContainer}>
                         <img
                             src={sofa.src}
                             className={styleImg}
