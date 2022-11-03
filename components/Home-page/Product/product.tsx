@@ -43,7 +43,6 @@ function Product () {
                 navigation={true} 
                 grabCursor={true}
                 loop={true}
-
                 className="w-full"
             >
                 <SwiperSlide>
